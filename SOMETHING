@@ -1,1 +1,65 @@
 IIF(ISNULL(safety_stock), 'SAFETY_STOCK_NULL', IIF(ISNULL(location_type) OR NOT IN(UPPER(LTRIM(RTRIM(location_type))), 'STORE', 'WAREHOUSE', 1), 'LOCATION_TYPE_INVALID', IIF(ISNULL(stock_status) OR NOT IN(LTRIM(RTRIM(stock_status)), 'Normal', 'Low', 'Excess', 'Out of Stock', 1), 'STOCK_STATUS_INVALID', IIF(ISNULL(source_updated_ts), 'TIMESTAMP_INVALID', 'NONE'))))
+
+variablr ports 
+ v_order_date_s   LTRIM(RTRIM(order_date))
+
+v_ts_s  LTRIM(RTRIM(source_updated_ts)) 
+
+v_discount_s LTRIM(RTRIM(discount_amount)) 
+4.2 Output ports 
+
+o_order_id  string (20) UPPER(LTRIM(RTRIM(order_id))) 
+
+o_store_id string (20) UPPER(LTRIM(RTRIM(store_id))) 
+
+o_product_id string (20) UPPER(LTRIM(RTRIM(product_id)))
+
+o_order_date date/time (29,9) IIF(IS_DATE(v_order_date_s,'YYYY-MM-DD'), TO_DATE(v_order_date_s,'YYYY-MM-DD'),    TO_DATE(v_order_date_s,'DD-MON-YYYY')) 
+
+o_date_fixed integer (10,0) IIF(IS_DATE(v_order_date_s,'YYYY-MM-DD'), 0, 1) 
+
+o_qty decimal (18,0) TO_DECIMAL(LTRIM(RTRIM(quantity_sold)), 0) 
+
+o_unit_price decimal (10,2) TO_DECIMAL(LTRIM(RTRIM(unit_price)), 2) 
+
+o_disc_null integer (10,0) IIF(ISNULL(discount_amount) OR v_discount_s = '', 1, 0) 
+
+o_discount decimal (10,2) IIF(ISNULL(discount_amount) OR v_discount_s = '', 0, TO_DECIMAL(v_discount_s, 2)) 
+
+o_tax decimal (10,2) TO_DECIMAL(LTRIM(RTRIM(tax_amount)), 2) 
+
+o_net decimal (18,2) TO_DECIMAL(LTRIM(RTRIM(net_amount)), 2) 
+
+o_status string (20) LTRIM(RTRIM(order_status)) 
+
+o_channel string (20) LTRIM(RTRIM(sales_channel)) 
+
+o_ts date/time (29,9) TO_DATE(SUBSTR(v_ts_s,1,10) || ' ' || SUBSTR(v_ts_s,12,8), 'YYYY-MM-DD HH24:MI:SS') 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
