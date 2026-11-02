@@ -1,0 +1,801 @@
+product_id,product_name,category,sub_category,brand,unit_cost,list_price,shelf_life_days,pack_size,active_flag,source_updated_ts
+PRD000001,Natural Biscuits 1,Snacks,Biscuits,Utsav,75.86,116.25,30,1 L,Y,2025-12-01T01:00:00Z
+PRD000002,Gold Skin Care 2,Personal Care,Skin Care,Utsav,83.56,101.94,90,250 g,Y,2025-12-01T02:00:00Z
+PRD000003,Daily Detergent 3,Home Care,Detergent,Prakriti,333.75,437.23,540,500 g,Y,2025-12-01T03:00:00Z
+PRD000004,Daily Grains 4,Staples,Grains,Navya,255.25,373.83,540,1 L,Y,2025-12-01T04:00:00Z
+PRD000005,Natural Juice 5,Beverages,Juice,Aarohan,234.64,277.86,540,1 L,Y,2025-12-01T05:00:00Z
+PRD000006,Fresh Biscuits 6,Snacks,Biscuits,Utsav,200.09,307.45,365,500 g,Y,2025-12-01T06:00:00Z
+PRD000007,Daily Skin Care 7,Personal Care,Skin Care,Aarohan,69.89,99.82,365,250 g,Y,2025-12-01T07:00:00Z
+PRD000008,Fresh Detergent 8,Home Care,Detergent,Sampoorna,123.53,183.11,365,1 kg,Y,2025-12-01T08:00:00Z
+PRD000009,Natural Grains 9,Staples,Grains,Utsav,31.99,41.24,365,250 g,Y,2025-12-01T09:00:00Z
+PRD000010,Fresh Juice 10,Beverages,Juice,Navya,200.23,266.64,365,500 g,Y,2025-12-01T10:00:00Z
+PRD000011,Fresh Biscuits 11,Snacks,Biscuits,Prakriti,388.97,578.56,540,100 g,Y,2025-12-01T11:00:00Z
+PRD000012,Classic Skin Care 12,Personal Care,Skin Care,Sampoorna,212.19,246.77,180,500 g,Y,2025-12-01T12:00:00Z
+PRD000013,Classic Detergent 13,Home Care,Detergent,Prakriti,429.4,636.01,540,250 g,Y,2025-12-01T13:00:00Z
+PRD000014,Gold Grains 14,Staples,Grains,Utsav,309.32,370.21,180,100 g,Y,2025-12-01T14:00:00Z
+PRD000015,Fresh Juice 15,Beverages,Juice,Aarohan,299.75,373.39,365,1 kg,Y,2025-12-01T15:00:00Z
+PRD000016,Daily Biscuits 16,Snacks,Biscuits,Aarohan,219.27,332.65,30,250 g,Y,2025-12-01T16:00:00Z
+PRD000017,Daily Skin Care 17,Personal Care,Skin Care,Sampoorna,308.78,412.16,90,100 g,Y,2025-12-01T17:00:00Z
+PRD000018,Daily Detergent 18,Home Care,Detergent,Aarohan,57.38,71.31,540,1 L,Y,2025-12-01T18:00:00Z
+PRD000019,Gold Grains 19,Staples,Grains,Utsav,296.47,342.2,365,250 g,Y,2025-12-01T19:00:00Z
+PRD000020,Gold Juice 20,Beverages,Juice,Prakriti,402.89,534.37,90,1 kg,Y,2025-12-01T20:00:00Z
+PRD000021,Classic Biscuits 21,Snacks,Biscuits,,65.51,103.14,90,250 g,Y,2025-12-01T21:00:00Z
+PRD000022,Daily Skin Care 22,Personal Care,Skin Care,Utsav,25.21,40.19,180,1 L,Y,2025-12-01T22:00:00Z
+PRD000023,Classic Detergent 23,Home Care,Detergent,Prakriti,333.76,487.29,90,100 g,Y,2025-12-01T23:00:00Z
+PRD000024,Classic Grains 24,Staples,Grains,Aarohan,66.72,89.67,540,1 L,Y,2025-12-02T00:00:00Z
+PRD000025,Gold Juice 25,Beverages,Juice,Aarohan,193.38,258.46,540,1 kg,Y,2025-12-02T01:00:00Z
+PRD000026,Daily Biscuits 26,Snacks,Biscuits,Utsav,182.75,227.05,30,100 g,Y,2025-12-02T02:00:00Z
+PRD000027,Fresh Skin Care 27,Personal Care,Skin Care,Navya,331.19,436.26,180,1 L,Y,2025-12-02T03:00:00Z
+PRD000028,Classic Detergent 28,Home Care,Detergent,Prakriti,276.34,335.12,30,250 g,Y,2025-12-02T04:00:00Z
+PRD000029,Fresh Grains 29,Staples,Grains,Navya,161.85,198.98,540,250 g,Y,2025-12-02T05:00:00Z
+PRD000030,Daily Juice 30,Beverages,Juice,Sampoorna,333.35,397.28,180,1 L,Y,2025-12-02T06:00:00Z
+PRD000031,Daily Biscuits 31,Snacks,Biscuits,Aarohan,342.23,522.85,540,250 g,Y,2025-12-02T07:00:00Z
+PRD000032,Gold Skin Care 32,Personal Care,Skin Care,Aarohan,102.3,117.79,90,1 kg,Y,2025-12-02T08:00:00Z
+PRD000033,Classic Detergent 33,Home Care,Detergent,Sampoorna,50.46,77.71,90,500 g,Y,2025-12-02T09:00:00Z
+PRD000034,Classic Grains 34,Staples,Grains,Sampoorna,255.25,350.97,30,250 g,Y,2025-12-02T10:00:00Z
+PRD000035,Daily Juice 35,Beverages,Juice,Aarohan,204.46,249.43,540,100 g,Y,2025-12-02T11:00:00Z
+PRD000036,Natural Biscuits 36,Snacks,Biscuits,Prakriti,60,72.49,30,1 L,Y,2025-12-02T12:00:00Z
+PRD000037,Gold Skin Care 37,Personal Care,Skin Care,Sampoorna,456.94,636.23,180,500 g,Y,2025-12-02T13:00:00Z
+PRD000038,Fresh Detergent 38,Home Care,Detergent,Aarohan,168.37,228.35,540,1 kg,Y,2025-12-02T14:00:00Z
+PRD000039,Natural Grains 39,Staples,Grains,Aarohan,26.26,41.43,540,1 L,Y,2025-12-02T15:00:00Z
+PRD000040,Daily Juice 40,Beverages,Juice,Aarohan,73.48,116.09,365,500 g,Y,2025-12-02T16:00:00Z
+PRD000041,Daily Biscuits 41,Snacks,Biscuits,Utsav,272.69,367.64,365,1 kg,Y,2025-12-02T17:00:00Z
+PRD000042,Fresh Skin Care 42,Personal Care,Skin Care,Utsav,162.71,202.64,30,100 g,Y,2025-12-02T18:00:00Z
+PRD000043,Gold Detergent 43,Home Care,Detergent,Prakriti,207.71,331.84,180,500 g,Y,2025-12-02T19:00:00Z
+PRD000044,Gold Grains 44,Staples,Grains,Navya,42.96,68.65,540,1 kg,Y,2025-12-02T20:00:00Z
+PRD000045,Gold Juice 45,Beverages,Juice,Sampoorna,69.43,93.63,365,250 g,Y,2025-12-02T21:00:00Z
+PRD000046,Fresh Biscuits 46,Snacks,Biscuits,Aarohan,106.26,138.1,540,100 g,Y,2025-12-02T22:00:00Z
+PRD000047,Natural Skin Care 47,Personal Care,Skin Care,Sampoorna,375.32,467.63,30,500 g,Y,2025-12-02T23:00:00Z
+PRD000048,Fresh Detergent 48,Home Care,Detergent,Aarohan,361.59,472.91,365,100 g,Y,2025-12-03T00:00:00Z
+PRD000049,Gold Grains 49,Staples,Grains,Navya,466.09,689.12,30,1 kg,Y,2025-12-03T01:00:00Z
+PRD000050,Gold Juice 50,Beverages,Juice,Sampoorna,114.21,173.12,90,500 g,Y,2025-12-03T02:00:00Z
+PRD000051,Daily Biscuits 51,Snacks,Biscuits,Utsav,289.01,348.6,30,500 g,Y,2025-12-03T03:00:00Z
+PRD000052,Classic Skin Care 52,Personal Care,Skin Care,Utsav,408.08,644.77,365,100 g,Y,2025-12-03T04:00:00Z
+PRD000053,Fresh Detergent 53,Home Care,Detergent,Prakriti,258.67,410.78,540,500 g,Y,2025-12-03T05:00:00Z
+PRD000054,Daily Grains 54,Staples,Grains,Prakriti,373.14,467.26,30,250 g,Y,2025-12-03T06:00:00Z
+PRD000055,Natural Juice 55,Beverages,Juice,Aarohan,294.53,441.69,180,250 g,Y,2025-12-03T07:00:00Z
+PRD000056,Classic Biscuits 56,Snacks,Biscuits,Sampoorna,93.75,114.61,180,250 g,Y,2025-12-03T08:00:00Z
+PRD000057,Fresh Skin Care 57,Personal Care,Skin Care,Aarohan,307.33,426.61,540,1 L,N,2025-12-03T09:00:00Z
+PRD000058,Fresh Detergent 58,Home Care,Detergent,Prakriti,397.46,484.41,365,100 g,Y,2025-12-03T10:00:00Z
+PRD000059,Natural Grains 59,Staples,Grains,Sampoorna,99.96,129.81,540,1 L,Y,2025-12-03T11:00:00Z
+PRD000060,Gold Juice 60,Beverages,Juice,Utsav,46.95,71.3,30,1 kg,Y,2025-12-03T12:00:00Z
+PRD000061,Natural Biscuits 61,Snacks,Biscuits,Sampoorna,56.08,74.3,540,250 g,Y,2025-12-03T13:00:00Z
+PRD000062,Fresh Skin Care 62,Personal Care,Skin Care,Utsav,362.99,529.95,180,1 L,Y,2025-12-03T14:00:00Z
+PRD000063,Daily Detergent 63,Home Care,Detergent,Navya,420,567.82,365,100 g,Y,2025-12-03T15:00:00Z
+PRD000064,Fresh Grains 64,Staples,Grains,Aarohan,447.52,677.95,540,1 kg,Y,2025-12-03T16:00:00Z
+PRD000065,Fresh Juice 65,Beverages,Juice,Prakriti,298.44,370.79,180,100 g,Y,2025-12-03T17:00:00Z
+PRD000066,Fresh Biscuits 66,Snacks,Biscuits,Prakriti,25.76,31.38,180,1 L,Y,2025-12-03T18:00:00Z
+PRD000067,Classic Skin Care 67,Personal Care,Skin Care,Navya,349.14,498.77,90,100 g,Y,2025-12-03T19:00:00Z
+PRD000068,Classic Detergent 68,Home Care,Detergent,Aarohan,364.63,477.84,365,1 L,Y,2025-12-03T20:00:00Z
+PRD000069,Gold Grains 69,Staples,Grains,Utsav,302.86,421.91,90,250 g,Y,2025-12-03T21:00:00Z
+PRD000070,Daily Juice 70,Beverages,Juice,Utsav,29.9,42.85,30,1 L,Y,2025-12-03T22:00:00Z
+PRD000071,Classic Biscuits 71,Snacks,Biscuits,Aarohan,213.5,340.35,180,100 g,Y,2025-12-03T23:00:00Z
+PRD000072,Fresh Skin Care 72,Personal Care,Skin Care,Sampoorna,418.75,485.57,90,500 g,Y,2025-12-04T00:00:00Z
+PRD000073,Natural Detergent 73,Home Care,Detergent,Utsav,340.05,530.75,30,100 g,Y,2025-12-04T01:00:00Z
+PRD000074,Classic Grains 74,Staples,Grains,Utsav,143.59,228.04,180,500 g,Y,2025-12-04T02:00:00Z
+PRD000075,Classic Juice 75,Beverages,Juice,Prakriti,290.78,413.13,540,1 kg,Y,2025-12-04T03:00:00Z
+PRD000076,Natural Biscuits 76,Snacks,Biscuits,Aarohan,34.42,51.77,365,1 L,Y,2025-12-04T04:00:00Z
+PRD000077,Daily Skin Care 77,Personal Care,Skin Care,Sampoorna,302.41,388.01,540,500 g,Y,2025-12-04T05:00:00Z
+PRD000078,Fresh Detergent 78,Home Care,Detergent,Navya,134.7,206.43,90,1 L,Y,2025-12-04T06:00:00Z
+PRD000079,Natural Grains 79,Staples,Grains,Utsav,76.93,96.04,90,1 L,Y,2025-12-04T07:00:00Z
+PRD000080,Classic Juice 80,Beverages,Juice,Utsav,392.18,542.06,365,100 g,Y,2025-12-04T08:00:00Z
+PRD000081,Natural Biscuits 81,Snacks,Biscuits,Utsav,375.59,486.14,180,1 kg,Y,18/12/2025 09:15:00
+PRD000082,Fresh Skin Care 82,Personal Care,Skin Care,Navya,20.48,27.03,30,250 g,Y,2025-12-04T10:00:00Z
+PRD000083,Daily Detergent 83,Home Care,Detergent,Sampoorna,155.04,216.76,540,1 kg,Y,2025-12-04T11:00:00Z
+PRD000084,Gold Grains 84,Staples,Grains,Utsav,224.3,309.69,180,500 g,Y,2025-12-04T12:00:00Z
+PRD000085,Natural Juice 85,Beverages,Juice,Utsav,100.33,152.09,540,1 L,Y,2025-12-04T13:00:00Z
+PRD000086,Fresh Biscuits 86,Snacks,Biscuits,Navya,338.43,533.63,365,1 kg,Y,2025-12-04T14:00:00Z
+PRD000087,Classic Skin Care 87,Personal Care,Skin Care,Utsav,191.76,238.99,30,100 g,Y,2025-12-04T15:00:00Z
+PRD000088,Fresh Detergent 88,Home Care,Detergent,Sampoorna,123.08,149.6,365,1 kg,Y,2025-12-04T16:00:00Z
+PRD000089,Gold Grains 89,Staples,Grains,Utsav,131.35,179.12,90,500 g,Y,2025-12-04T17:00:00Z
+PRD000090,Gold Juice 90,Beverages,Juice,Prakriti,392.81,562.58,540,500 g,Y,2025-12-04T18:00:00Z
+PRD000091,Classic Biscuits 91,Snacks,Biscuits,Navya,183.54,253.83,30,1 L,Y,2025-12-04T19:00:00Z
+PRD000092,Daily Skin Care 92,Personal Care,Skin Care,Prakriti,179.02,241.83,90,250 g,Y,2025-12-04T20:00:00Z
+PRD000093,Fresh Detergent 93,Home Care,Detergent,Aarohan,255.98,327.04,540,1 L,Y,2025-12-04T21:00:00Z
+PRD000094,Natural Grains 94,Staples,Grains,Sampoorna,188.63,279.32,30,1 kg,Y,2025-12-04T22:00:00Z
+PRD000095,Daily Juice 95,Beverages,Juice,Aarohan,191.08,265.84,540,500 g,Y,2025-12-04T23:00:00Z
+PRD000096,Daily Biscuits 96,Snacks,Biscuits,Sampoorna,465.79,643.63,90,1 kg,Y,2025-12-05T00:00:00Z
+PRD000097,Fresh Skin Care 97,Personal Care,Skin Care,Aarohan,237.94,312.84,180,250 g,Y,2025-12-05T01:00:00Z
+PRD000098,Fresh Detergent 98,Home Care,Detergent,Prakriti,114.05,140.09,365,1 L,Y,2025-12-05T02:00:00Z
+PRD000099,Gold Grains 99,Staples,Grains,Utsav,420.14,602.36,180,500 g,Y,2025-12-05T03:00:00Z
+PRD000100,Classic Juice 100,Beverages,Juice,Utsav,300.76,467.24,30,500 g,Y,2025-12-05T04:00:00Z
+PRD000101,Natural Biscuits 101,Snacks,Biscuits,Prakriti,363.31,540.27,30,100 g,Y,2025-12-05T05:00:00Z
+PRD000102,Natural Skin Care 102,Personal Care,Skin Care,Utsav,389.03,454.69,365,1 L,Y,2025-12-05T06:00:00Z
+PRD000103,Daily Detergent 103,Home Care,Detergent,Prakriti,225.66,331.27,540,500 g,Y,2025-12-05T07:00:00Z
+PRD000104,Daily Grains 104,Staples,Grains,Prakriti,147.27,193.59,540,1 L,Y,2025-12-05T08:00:00Z
+PRD000105,Classic Juice 105,Beverages,Juice,Navya,467.81,594.81,30,100 g,Y,2025-12-05T09:00:00Z
+PRD000106,Gold Biscuits 106,Snacks,Biscuits,Prakriti,269.54,421.49,180,100 g,Y,2025-12-05T10:00:00Z
+PRD000107,Classic Skin Care 107,Personal Care,Skin Care,Utsav,29.69,41.69,30,500 g,Y,2025-12-05T11:00:00Z
+PRD000108,Natural Detergent 108,Home Care,Detergent,Navya,367.33,523.69,180,100 g,Y,2025-12-05T12:00:00Z
+PRD000109,Fresh Grains 109,Staples,Grains,Utsav,395.75,553.61,180,500 g,Y,2025-12-05T13:00:00Z
+PRD000110,Gold Juice 110,Beverages,Juice,Sampoorna,119.86,173.23,540,100 g,Y,2025-12-05T14:00:00Z
+PRD000111,Fresh Biscuits 111,Snacks,Biscuits,Prakriti,51.24,80.94,90,1 kg,Y,2025-12-05T15:00:00Z
+PRD000112,Fresh Skin Care 112,Personal Care,Skin Care,Prakriti,148.02,182.24,365,250 g,Y,2025-12-05T16:00:00Z
+PRD000113,Gold Detergent 113,Home Care,Detergent,Sampoorna,149.35,197.37,30,500 g,Y,2025-12-05T17:00:00Z
+PRD000114,Daily Grains 114,Staples,Grains,Sampoorna,242.4,367.06,180,250 g,N,2025-12-05T18:00:00Z
+PRD000115,Classic Juice 115,Beverages,Juice,Prakriti,342.63,435.58,365,500 g,Y,2025-12-05T19:00:00Z
+PRD000116,Fresh Biscuits 116,Snacks,Biscuits,Aarohan,311.13,435.08,540,1 L,Y,2025-12-05T20:00:00Z
+PRD000117,Classic Skin Care 117,Personal Care,Skin Care,Aarohan,88.77,141.22,540,1 L,Y,2025-12-05T21:00:00Z
+PRD000118,Fresh Detergent 118,Home Care,Detergent,Prakriti,465.75,539.06,30,1 kg,Y,2025-12-05T22:00:00Z
+PRD000119,Classic Grains 119,Staples,Grains,Sampoorna,225.75,291.92,180,500 g,Y,2025-12-05T23:00:00Z
+PRD000120,Natural Juice 120,Beverages,Juice,Navya,81.87,117.51,180,1 L,Y,2025-12-06T00:00:00Z
+PRD000121,Natural Biscuits 121,Snacks,Biscuits,Prakriti,46.4,67.14,90,250 g,Y,2025-12-06T01:00:00Z
+PRD000122,Daily Skin Care 122,Personal Care,Skin Care,Sampoorna,127.55,159.57,30,500 g,Y,2025-12-06T02:00:00Z
+PRD000123,Gold Detergent 123,Home Care,Detergent,Sampoorna,462.52,680.02,180,100 g,Y,2025-12-06T03:00:00Z
+PRD000124,Classic Grains 124,Staples,Grains,Utsav,206.91,302.34,90,500 g,Y,2025-12-06T04:00:00Z
+PRD000125,Daily Juice 125,Beverages,Juice,Prakriti,22.39,28.65,180,1 kg,Y,2025-12-06T05:00:00Z
+PRD000126,Natural Biscuits 126,Snacks,Biscuits,Utsav,218.25,291.32,540,500 g,Y,2025-12-06T06:00:00Z
+PRD000127,Fresh Skin Care 127,Personal Care,Skin Care,Navya,57.4,90.48,540,100 g,Y,2025-12-06T07:00:00Z
+PRD000128,Gold Detergent 128,Home Care,Detergent,Aarohan,358.05,509.72,540,1 kg,Y,2025-12-06T08:00:00Z
+PRD000129,Daily Grains 129,Staples,Grains,Aarohan,290.93,435.51,90,1 kg,Y,2025-12-06T09:00:00Z
+PRD000130,Gold Juice 130,Beverages,Juice,Navya,374.55,468.52,540,1 kg,Y,2025-12-06T10:00:00Z
+PRD000131,Classic Biscuits 131,Snacks,Biscuits,Aarohan,42.17,52.16,540,100 g,Y,2025-12-06T11:00:00Z
+PRD000132,Natural Skin Care 132,Personal Care,Skin Care,Sampoorna,311.63,415.82,30,250 g,Y,2025-12-06T12:00:00Z
+PRD000133,Classic Detergent 133,Home Care,Detergent,Aarohan,279.12,443.31,90,1 L,Y,2025-12-06T13:00:00Z
+PRD000134,Fresh Grains 134,Staples,Grains,Prakriti,276.14,440.02,540,1 kg,Y,2025-12-06T14:00:00Z
+PRD000135,Natural Juice 135,Beverages,Juice,Prakriti,72.26,97.66,365,1 kg,Y,2025-12-06T15:00:00Z
+PRD000136,Fresh Biscuits 136,Snacks,Biscuits,Navya,150.13,200.25,90,500 g,Y,2025-12-06T16:00:00Z
+PRD000137,Classic Skin Care 137,Personal Care,Skin Care,Prakriti,296.3,472.15,365,250 g,Y,2025-12-06T17:00:00Z
+PRD000138,Daily Detergent 138,Home Care,Detergent,Aarohan,114.25,181.02,180,100 g,Y,2025-12-06T18:00:00Z
+PRD000139,Classic Grains 139,Staples,Grains,Aarohan,425.55,590.25,365,500 g,Y,2025-12-06T19:00:00Z
+PRD000140,Gold Juice 140,Beverages,Juice,Aarohan,406.57,584.79,90,500 g,Y,2025-12-06T20:00:00Z
+PRD000141,Gold Biscuits 141,Snacks,Biscuits,Utsav,219.82,252.9,540,500 g,Y,2025-12-06T21:00:00Z
+PRD000142,Classic Skin Care 142,Personal Care,Skin Care,Navya,441.38,558.49,365,1 kg,Y,2025-12-06T22:00:00Z
+PRD000143,Classic Detergent 143,Home Care,Detergent,Utsav,62.83,91.89,540,1 kg,Y,2025-12-06T23:00:00Z
+PRD000144,Fresh Grains 144,Staples,Grains,Utsav,170.45,249.83,180,1 L,Y,2025-12-07T00:00:00Z
+PRD000145,Fresh Juice 145,Beverages,Juice,Prakriti,129.84,182.55,90,100 g,Y,2025-12-07T01:00:00Z
+PRD000146,Classic Biscuits 146,Snacks,Biscuits,Navya,248.03,329.13,365,1 kg,Y,2025-12-07T02:00:00Z
+PRD000147,Fresh Skin Care 147,Personal Care,Skin Care,Prakriti,450.43,538.34,365,1 kg,Y,2025-12-07T03:00:00Z
+PRD000148,Daily Detergent 148,Home Care,Detergent,Aarohan,235.37,355.55,180,100 g,Y,2025-12-07T04:00:00Z
+PRD000149,Natural Grains 149,Staples,Grains,Utsav,456.74,556.58,540,250 g,Y,2025-12-07T05:00:00Z
+PRD000150,Gold Juice 150,Beverages,Juice,Utsav,129.78,156.83,90,250 g,Y,2025-12-07T06:00:00Z
+PRD000151,Daily Biscuits 151,Snacks,Biscuits,Navya,188.87,260.03,90,1 L,Y,2025-12-07T07:00:00Z
+PRD000152,Fresh Skin Care 152,Personal Care,Skin Care,Navya,265.27,347.28,365,500 g,Y,2025-12-07T08:00:00Z
+PRD000153,Daily Detergent 153,Home Care,Detergent,Navya,168.43,233.69,180,1 kg,Y,2025-12-07T09:00:00Z
+PRD000154,Gold Grains 154,Staples,Grains,Navya,363.63,551.8,180,1 kg,Y,2025-12-07T10:00:00Z
+PRD000155,Gold Juice 155,Beverages,Juice,Prakriti,113.08,131.69,30,1 kg,Y,2025-12-07T11:00:00Z
+PRD000156,Daily Biscuits 156,Snacks,Biscuits,Prakriti,359.89,534.39,90,1 L,Y,2025-12-07T12:00:00Z
+PRD000157,Classic Skin Care 157,Personal Care,Skin Care,Navya,310.2,486.11,90,1 kg,Y,2025-12-07T13:00:00Z
+PRD000158,Fresh Detergent 158,Home Care,Detergent,Aarohan,131.62,160.11,365,250 g,Y,2025-12-07T14:00:00Z
+PRD000159,Daily Grains 159,Staples,Grains,Utsav,30.92,39.86,365,1 L,Y,2025-12-07T15:00:00Z
+PRD000160,Gold Juice 160,Beverages,Juice,Utsav,435.25,617.75,365,250 g,Y,2025-12-07T16:00:00Z
+PRD000161,Gold Biscuits 161,Snacks,Biscuits,Aarohan,360.31,510.14,540,1 L,Y,2025-12-07T17:00:00Z
+PRD000162,Fresh Skin Care 162,Personal Care,Skin Care,Prakriti,208.67,265.35,30,250 g,Y,2025-12-07T18:00:00Z
+PRD000163,Classic Detergent 163,Home Care,Detergent,Prakriti,410.42,560.81,365,500 g,Y,2025-12-07T19:00:00Z
+PRD000164,Daily Grains 164,Staples,Grains,Navya,208.62,285.35,180,500 g,Y,2025-12-07T20:00:00Z
+PRD000165,Daily Juice 165,Beverages,Juice,Prakriti,205.42,282.35,180,1 L,Y,2025-12-07T21:00:00Z
+PRD000166,Fresh Biscuits 166,Snacks,Biscuits,Prakriti,235.91,330.41,30,1 kg,Y,2025-12-07T22:00:00Z
+PRD000167,Natural Skin Care 167,Personal Care,Skin Care,Aarohan,132.24,197.88,180,1 L,Y,2025-12-07T23:00:00Z
+PRD000168,Fresh Detergent 168,Home Care,Detergent,Navya,358.11,484.28,90,500 g,Y,2025-12-08T00:00:00Z
+PRD000169,Fresh Grains 169,Staples,Grains,Prakriti,453.84,537.87,90,1 L,Y,2025-12-08T01:00:00Z
+PRD000170,Gold Juice 170,Beverages,Juice,Aarohan,368.41,478.17,90,100 g,Y,2025-12-08T02:00:00Z
+PRD000171,Fresh Biscuits 171,Snacks,Biscuits,Utsav,403.59,570.41,365,1 kg,N,2025-12-08T03:00:00Z
+PRD000172,Gold Skin Care 172,Personal Care,Skin Care,Utsav,199.22,292.03,180,500 g,Y,2025-12-08T04:00:00Z
+PRD000173,Fresh Detergent 173,Home Care,Detergent,Aarohan,347.55,423.11,365,500 g,Y,2025-12-08T05:00:00Z
+PRD000174,Gold Grains 174,Staples,Grains,Navya,164.63,255.55,30,1 L,Y,2025-12-08T06:00:00Z
+PRD000175,Gold Juice 175,Beverages,Juice,Sampoorna,72.26,111.46,365,1 kg,Y,2025-12-08T07:00:00Z
+PRD000176,Fresh Biscuits 176,Snacks,Biscuits,Aarohan,215.72,327.33,540,250 g,Y,2025-12-08T08:00:00Z
+PRD000177,Daily Skin Care 177,Personal Care,Skin Care,Prakriti,63.69,92.74,180,250 g,Y,2025-12-08T09:00:00Z
+PRD000178,Classic Detergent 178,Home Care,Detergent,Aarohan,186.55,232.29,30,500 g,Y,2025-12-08T10:00:00Z
+PRD000179,Natural Grains 179,Staples,Grains,Navya,197.33,298.65,540,100 g,Y,2025-12-08T11:00:00Z
+PRD000180,Daily Juice 180,Beverages,Juice,Aarohan,376.28,587.76,540,250 g,Y,2025-12-08T12:00:00Z
+PRD000181,Natural Biscuits 181,Snacks,Biscuits,Utsav,227.84,324.87,180,500 g,Y,2025-12-08T13:00:00Z
+PRD000182,Fresh Skin Care 182,Personal Care,Skin Care,Prakriti,365.94,531.43,90,100 g,Y,2025-12-08T14:00:00Z
+PRD000183,Daily Detergent 183,Home Care,Detergent,Prakriti,147.63,213.62,365,1 L,Y,2025-12-08T15:00:00Z
+PRD000184,Natural Grains 184,Staples,Grains,Prakriti,451.07,642.95,90,1 L,Y,2025-12-08T16:00:00Z
+PRD000185,Fresh Juice 185,Beverages,Juice,Prakriti,397.57,611.09,30,1 L,Y,2025-12-08T17:00:00Z
+PRD000186,Gold Biscuits 186,Snacks,Biscuits,Navya,162.06,223.29,540,500 g,Y,2025-12-08T18:00:00Z
+PRD000187,Classic Skin Care 187,Personal Care,Skin Care,Aarohan,296.23,373.98,365,500 g,Y,2025-12-08T19:00:00Z
+PRD000188,Daily Detergent 188,Home Care,Detergent,Aarohan,75.14,114.18,30,1 L,Y,2025-12-08T20:00:00Z
+PRD000189,Gold Grains 189,Staples,Grains,Navya,232.4,345.14,540,1 L,Y,2025-12-08T21:00:00Z
+PRD000190,Classic Juice 190,Beverages,Juice,Navya,462.02,636.61,30,1 L,Y,2025-12-08T22:00:00Z
+PRD000191,Gold Biscuits 191,Snacks,Biscuits,Utsav,349.82,556.72,180,500 g,Y,2025-12-08T23:00:00Z
+PRD000192,Fresh Skin Care 192,Personal Care,Skin Care,Sampoorna,363.26,560.33,30,250 g,Y,2025-12-09T00:00:00Z
+PRD000193,Daily Detergent 193,Home Care,Detergent,Sampoorna,191.6,253.62,90,100 g,Y,2025-12-09T01:00:00Z
+PRD000194,Classic Grains 194,Staples,Grains,Prakriti,63.71,77.16,365,1 kg,Y,2025-12-09T02:00:00Z
+PRD000195,Daily Juice 195,Beverages,Juice,Navya,23.03,33.33,540,1 kg,Y,2025-12-09T03:00:00Z
+PRD000196,Gold Biscuits 196,Snacks,Biscuits,Utsav,104.4,122.62,180,250 g,Y,2025-12-09T04:00:00Z
+PRD000197,Gold Skin Care 197,Personal Care,Skin Care,Prakriti,412.09,496.09,365,250 g,Y,2025-12-09T05:00:00Z
+PRD000198,Natural Detergent 198,Home Care,Detergent,Utsav,382.37,522.45,540,1 kg,Y,2025-12-09T06:00:00Z
+PRD000199,Natural Grains 199,Staples,Grains,Navya,410.89,608.69,30,1 L,Y,2025-12-09T07:00:00Z
+PRD000200,Daily Juice 200,Beverages,Juice,Aarohan,269.54,371.98,90,500 g,Y,2025-12-09T08:00:00Z
+PRD000201,Fresh Biscuits 201,Snacks,Biscuits,Navya,402.34,487.25,365,1 L,Y,2025-12-09T09:00:00Z
+PRD000202,Daily Skin Care 202,Personal Care,Skin Care,Navya,456.55,592.46,30,250 g,Y,2025-12-09T10:00:00Z
+PRD000203,Gold Detergent 203,Home Care,Detergent,Utsav,409.26,637.78,540,500 g,Y,2025-12-09T11:00:00Z
+PRD000204,Gold Grains 204,Staples,Grains,Utsav,88.91,115.5,540,250 g,Y,2025-12-09T12:00:00Z
+PRD000205,Gold Juice 205,Beverages,Juice,Sampoorna,44.96,70.73,180,100 g,Y,2025-12-09T13:00:00Z
+PRD000206,Gold Biscuits 206,Snacks,Biscuits,Aarohan,22.16,26.93,540,100 g,Y,2025-12-09T14:00:00Z
+PRD000207,Gold Skin Care 207,Personal Care,Skin Care,Prakriti,424.86,491.55,90,1 kg,Y,2025-12-09T15:00:00Z
+PRD000208,Gold Detergent 208,Home Care,Detergent,Sampoorna,26.05,33.33,90,250 g,Y,2025-12-09T16:00:00Z
+PRD000209,Gold Grains 209,Staples,Grains,Aarohan,148.22,173.39,90,1 L,Y,2025-12-09T17:00:00Z
+PRD000210,Fresh Juice 210,Beverages,Juice,Sampoorna,77.48,112.46,30,250 g,Y,2025-12-09T18:00:00Z
+PRD000211,Natural Biscuits 211,Snacks,Biscuits,Navya,238.35,288.4,540,100 g,Y,2025-12-09T19:00:00Z
+PRD000212,Daily Skin Care 212,Personal Care,Skin Care,Utsav,350.98,504.93,30,100 g,Y,2025-12-09T20:00:00Z
+PRD000213,Daily Detergent 213,Home Care,Detergent,Prakriti,217.75,325.78,90,100 g,Y,2025-12-09T21:00:00Z
+PRD000214,Natural Grains 214,Staples,Grains,Sampoorna,414.2,513.52,30,500 g,Y,2025-12-09T22:00:00Z
+PRD000215,Daily Juice 215,Beverages,Juice,Navya,289.18,451.57,180,1 L,Y,2025-12-09T23:00:00Z
+PRD000216,Gold Biscuits 216,Snacks,Biscuits,Prakriti,82.34,111.06,90,1 L,Y,2025-12-10T00:00:00Z
+PRD000217,Classic Skin Care 217,Personal Care,Skin Care,Navya,452.24,548.81,180,500 g,Y,2025-12-10T01:00:00Z
+PRD000218,Daily Detergent 218,Home Care,Detergent,Utsav,310.66,414.55,90,500 g,Y,2025-12-10T02:00:00Z
+PRD000219,Daily Grains 219,Staples,Grains,Utsav,355.11,553.8,180,500 g,Y,2025-12-10T03:00:00Z
+PRD000220,Daily Juice 220,Beverages,Juice,Prakriti,135.1,194.26,365,1 kg,Y,2025-12-10T04:00:00Z
+PRD000221,Natural Biscuits 221,Snacks,Biscuits,Prakriti,27.79,43.01,30,500 g,Y,2025-12-10T05:00:00Z
+PRD000222,Natural Skin Care 222,Personal Care,Skin Care,Aarohan,91.42,136.38,540,1 kg,Y,2025-12-10T06:00:00Z
+PRD000223,Classic Detergent 223,Home Care,Detergent,Navya,37,50.04,30,250 g,Y,2025-12-10T07:00:00Z
+PRD000224,Natural Grains 224,Staples,Grains,Navya,30.15,40.67,90,500 g,Y,2025-12-10T08:00:00Z
+PRD000225,Gold Juice 225,Beverages,Juice,Navya,140.19,183.39,365,1 kg,Y,2025-12-10T09:00:00Z
+PRD000226,Natural Biscuits 226,Snacks,Biscuits,Utsav,265.41,410.58,30,500 g,Y,2025-12-10T10:00:00Z
+PRD000227,Gold Skin Care 227,Personal Care,Skin Care,Utsav,33.77,49.62,365,1 L,Y,2025-12-10T11:00:00Z
+PRD000228,Daily Detergent 228,Home Care,Detergent,Prakriti,287.58,451.91,540,250 g,N,2025-12-10T12:00:00Z
+PRD000229,Natural Grains 229,Staples,Grains,Sampoorna,117.61,180.44,180,1 kg,Y,2025-12-10T13:00:00Z
+PRD000230,Gold Juice 230,Beverages,Juice,Utsav,308.02,485.18,365,1 kg,Y,2025-12-10T14:00:00Z
+PRD000231,Natural Biscuits 231,Snacks,Biscuits,Prakriti,121.19,192.2,30,1 L,Y,2025-12-10T15:00:00Z
+PRD000232,Classic Skin Care 232,Personal Care,Skin Care,Aarohan,235.91,308.19,365,100 g,Y,2025-12-10T16:00:00Z
+PRD000233,Classic Detergent 233,Home Care,Detergent,Utsav,245.4,373.97,30,100 g,Y,2025-12-10T17:00:00Z
+PRD000234,Fresh Grains 234,Staples,Grains,Navya,281.87,331.16,180,250 g,Y,2025-12-10T18:00:00Z
+PRD000235,Fresh Juice 235,Beverages,Juice,Aarohan,205.39,265.78,365,250 g,Y,2025-12-10T19:00:00Z
+PRD000236,Natural Biscuits 236,Snacks,Biscuits,Prakriti,462.97,700.27,30,500 g,Y,2025-12-10T20:00:00Z
+PRD000237,Gold Skin Care 237,Personal Care,Skin Care,Sampoorna,311.26,470.61,90,1 L,Y,2025-12-10T21:00:00Z
+PRD000238,Gold Detergent 238,Home Care,Detergent,Navya,371.45,478.05,180,250 g,Y,2025-12-10T22:00:00Z
+PRD000239,Natural Grains 239,Staples,Grains,Aarohan,422.88,654.26,365,100 g,Y,2025-12-10T23:00:00Z
+PRD000240,Classic Juice 240,Beverages,Juice,Navya,347.3,468.07,180,100 g,Y,2025-12-11T00:00:00Z
+PRD000241,Gold Biscuits 241,Snacks,Biscuits,Sampoorna,272.1,361.2,90,1 L,Y,2025-12-11T01:00:00Z
+PRD000242,Classic Skin Care 242,Personal Care,Skin Care,Utsav,39.22,59.36,30,250 g,Y,2025-12-11T02:00:00Z
+PRD000243,Fresh Detergent 243,Home Care,Detergent,Aarohan,131.36,204.6,90,250 g,Y,2025-12-11T03:00:00Z
+PRD000244,Natural Grains 244,Staples,Grains,Navya,407.39,630.54,90,1 L,Y,2025-12-11T04:00:00Z
+PRD000245,Classic Juice 245,Beverages,Juice,Navya,248.84,323.88,540,100 g,Y,2025-12-11T05:00:00Z
+PRD000246,Natural Biscuits 246,Snacks,Biscuits,Prakriti,73.59,93.27,365,1 kg,Y,2025-12-11T06:00:00Z
+PRD000247,Fresh Skin Care 247,Personal Care,Skin Care,Aarohan,164.43,250.03,540,1 L,Y,2025-12-11T07:00:00Z
+PRD000248,Gold Detergent 248,Home Care,Detergent,Aarohan,376.06,534.04,365,500 g,Y,2025-12-11T08:00:00Z
+PRD000249,Gold Grains 249,Staples,Grains,Aarohan,24.27,38.47,365,1 L,Y,2025-12-11T09:00:00Z
+PRD000250,Fresh Juice 250,Beverages,Juice,Utsav,44.15,60.33,365,1 kg,Y,2025-12-11T10:00:00Z
+PRD000251,Daily Biscuits 251,Snacks,Biscuits,Sampoorna,105.45,126.28,90,500 g,Y,2025-12-11T11:00:00Z
+PRD000252,Fresh Skin Care 252,Personal Care,Skin Care,Navya,375.09,480.96,90,100 g,Y,2025-12-11T12:00:00Z
+PRD000253,Classic Detergent 253,Home Care,Detergent,Prakriti,256.56,382.79,180,100 g,Y,2025-12-11T13:00:00Z
+PRD000254,Natural Grains 254,Staples,Grains,Prakriti,176.64,277.57,540,500 g,Y,2025-12-11T14:00:00Z
+PRD000255,Classic Juice 255,Beverages,Juice,Sampoorna,148.06,182.75,30,1 kg,Y,2025-12-11T15:00:00Z
+PRD000256,Classic Biscuits 256,Snacks,Biscuits,Aarohan,24.98,35.53,90,500 g,Y,2025-12-11T16:00:00Z
+PRD000257,Fresh Skin Care 257,Personal Care,Skin Care,Utsav,287.07,375.56,540,500 g,Y,2025-12-11T17:00:00Z
+PRD000258,Daily Detergent 258,Home Care,Detergent,Aarohan,270.94,354.69,540,1 kg,Y,2025-12-11T18:00:00Z
+PRD000259,Classic Grains 259,Staples,Grains,Sampoorna,391.43,532.7,540,1 kg,Y,2025-12-11T19:00:00Z
+PRD000260,Gold Juice 260,Beverages,Juice,Navya,165.03,218.02,365,100 g,Y,2025-12-11T20:00:00Z
+PRD000261,Daily Biscuits 261,Snacks,Biscuits,Utsav,78.95,96.16,180,1 kg,Y,2025-12-11T21:00:00Z
+PRD000262,Classic Skin Care 262,Personal Care,Skin Care,Navya,395.02,540.67,540,100 g,Y,2025-12-11T22:00:00Z
+PRD000263,Gold Detergent 263,Home Care,Detergent,Utsav,464.19,655.47,180,250 g,Y,2025-12-11T23:00:00Z
+PRD000264,Daily Grains 264,Staples,Grains,Navya,255.17,384.17,180,500 g,Y,2025-12-12T00:00:00Z
+PRD000265,Natural Juice 265,Beverages,Juice,Navya,467.55,660.04,365,1 kg,Y,2025-12-12T01:00:00Z
+PRD000266,Gold Biscuits 266,Snacks,Biscuits,Sampoorna,194.33,303.01,30,500 g,Y,2025-12-12T02:00:00Z
+PRD000267,Fresh Skin Care 267,Personal Care,Skin Care,Utsav,343.44,442.85,365,500 g,Y,2025-12-12T03:00:00Z
+PRD000268,Fresh Detergent 268,Home Care,Detergent,Sampoorna,416.63,548.38,90,500 g,Y,2025-12-12T04:00:00Z
+PRD000269,Natural Grains 269,Staples,Grains,Utsav,219,327.71,90,1 L,Y,2025-12-12T05:00:00Z
+PRD000270,Daily Juice 270,Beverages,Juice,Utsav,460.72,660.51,90,100 g,Y,2025-12-12T06:00:00Z
+PRD000271,Daily Biscuits 271,Snacks,Biscuits,Sampoorna,278.73,384.16,30,1 kg,Y,2025-12-12T07:00:00Z
+PRD000272,Daily Skin Care 272,Personal Care,Skin Care,Prakriti,370.2,451.74,540,1 kg,Y,2025-12-12T08:00:00Z
+PRD000273,Daily Detergent 273,Home Care,Detergent,Navya,371.78,593.93,90,250 g,Y,2025-12-12T09:00:00Z
+PRD000274,Gold Grains 274,Staples,Grains,Navya,334.03,487.81,30,1 L,Y,2025-12-12T10:00:00Z
+PRD000275,Gold Juice 275,Beverages,Juice,Utsav,106.42,133.61,540,1 kg,Y,2025-12-12T11:00:00Z
+PRD000276,Gold Biscuits 276,Snacks,Biscuits,Utsav,188,248.04,180,1 L,Y,2025-12-12T12:00:00Z
+PRD000277,Fresh Skin Care 277,Personal Care,Skin Care,Aarohan,274.08,329.64,90,100 g,Y,2025-12-12T13:00:00Z
+PRD000278,Classic Detergent 278,Home Care,Detergent,Utsav,379.57,475.24,540,100 g,Y,2025-12-12T14:00:00Z
+PRD000279,Fresh Grains 279,Staples,Grains,Aarohan,109.32,136.45,90,100 g,Y,2025-12-12T15:00:00Z
+PRD000280,Daily Juice 280,Beverages,Juice,Navya,213.99,306.35,180,1 kg,Y,2025-12-12T16:00:00Z
+PRD000281,Classic Biscuits 281,Snacks,Biscuits,Aarohan,67.19,105.92,365,1 L,Y,2025-12-12T17:00:00Z
+PRD000282,Fresh Skin Care 282,Personal Care,Skin Care,Navya,369.23,441.5,30,250 g,Y,2025-12-12T18:00:00Z
+PRD000283,Fresh Detergent 283,Home Care,Detergent,Navya,399.8,602.95,365,1 L,Y,2025-12-12T19:00:00Z
+PRD000284,Fresh Grains 284,Staples,Grains,Navya,401.04,621.59,365,1 L,Y,2025-12-12T20:00:00Z
+PRD000285,Fresh Juice 285,Beverages,Juice,Sampoorna,228.21,287.39,540,100 g,N,2025-12-12T21:00:00Z
+PRD000286,Daily Biscuits 286,Snacks,Biscuits,Sampoorna,296.91,363.78,540,250 g,Y,2025-12-12T22:00:00Z
+PRD000287,Fresh Skin Care 287,Personal Care,Skin Care,Aarohan,388.29,593.67,90,100 g,Y,2025-12-12T23:00:00Z
+PRD000288,Gold Detergent 288,Home Care,Detergent,Prakriti,454.27,566.61,180,500 g,Y,2025-12-13T00:00:00Z
+PRD000289,Daily Grains 289,Staples,Grains,Prakriti,54.16,67.15,540,100 g,Y,2025-12-13T01:00:00Z
+PRD000290,Classic Juice 290,Beverages,Juice,Navya,209.41,258.58,365,100 g,Y,2025-12-13T02:00:00Z
+PRD000291,Classic Biscuits 291,Snacks,Biscuits,Utsav,124.01,188.09,180,1 L,Y,2025-12-13T03:00:00Z
+PRD000292,Fresh Skin Care 292,Personal Care,Skin Care,Prakriti,211.28,309.24,30,500 g,Y,2025-12-13T04:00:00Z
+PRD000293,Natural Detergent 293,Home Care,Detergent,Aarohan,82.74,124.33,30,1 L,Y,2025-12-13T05:00:00Z
+PRD000294,Daily Grains 294,Staples,Grains,Prakriti,280.13,324.34,180,1 kg,Y,2025-12-13T06:00:00Z
+PRD000295,Natural Juice 295,Beverages,Juice,Sampoorna,195.44,259.56,90,500 g,Y,2025-12-13T07:00:00Z
+PRD000296,Natural Biscuits 296,Snacks,Biscuits,Utsav,138.1,200.29,365,250 g,Y,2025-12-13T08:00:00Z
+PRD000297,Fresh Skin Care 297,Personal Care,Skin Care,Prakriti,34.55,52.69,90,500 g,Y,2025-12-13T09:00:00Z
+PRD000298,Gold Detergent 298,Home Care,Detergent,Prakriti,62.03,87.95,180,100 g,Y,2025-12-13T10:00:00Z
+PRD000299,Natural Grains 299,Staples,Grains,Prakriti,209.22,281.32,365,1 kg,Y,2025-12-13T11:00:00Z
+PRD000300,Classic Juice 300,Beverages,Juice,Prakriti,247.74,287.51,90,100 g,Y,2025-12-13T12:00:00Z
+PRD000301,Gold Biscuits 301,Snacks,Biscuits,Navya,184.04,276.89,30,500 g,Y,2025-12-13T13:00:00Z
+PRD000302,Classic Skin Care 302,Personal Care,Skin Care,Navya,360.97,502.93,365,500 g,Y,2025-12-13T14:00:00Z
+PRD000303,Gold Detergent 303,Home Care,Detergent,Utsav,387.81,597.91,30,1 L,Y,2025-12-13T15:00:00Z
+PRD000304,Classic Grains 304,Staples,Grains,Navya,86.57,104.18,365,1 L,Y,2025-12-13T16:00:00Z
+PRD000305,Fresh Juice 305,Beverages,Juice,Sampoorna,383.09,581.39,540,500 g,Y,2025-12-13T17:00:00Z
+PRD000306,Gold Biscuits 306,Snacks,Biscuits,Sampoorna,198.01,251.75,540,1 L,Y,2025-12-13T18:00:00Z
+PRD000307,Gold Skin Care 307,Personal Care,Skin Care,Aarohan,164.97,224.32,30,1 kg,Y,2025-12-13T19:00:00Z
+PRD000308,Daily Detergent 308,Home Care,Detergent,Prakriti,157.01,203.98,180,100 g,Y,2025-12-13T20:00:00Z
+PRD000309,Daily Grains 309,Staples,Grains,Utsav,72.62,99.67,180,1 L,Y,2025-12-13T21:00:00Z
+PRD000310,Classic Juice 310,Beverages,Juice,Prakriti,354.26,444.15,30,1 kg,Y,2025-12-13T22:00:00Z
+PRD000311,Daily Biscuits 311,Snacks,Biscuits,Prakriti,59.01,89.16,90,500 g,Y,2025-12-13T23:00:00Z
+PRD000312,Gold Skin Care 312,Personal Care,Skin Care,Sampoorna,182.43,260.61,365,1 kg,Y,2025-12-14T00:00:00Z
+PRD000313,Daily Detergent 313,Home Care,Detergent,Aarohan,461.23,559.43,30,1 L,Y,2025-12-14T01:00:00Z
+PRD000314,Daily Grains 314,Staples,Grains,Prakriti,155.89,195.62,180,100 g,Y,2025-12-14T02:00:00Z
+PRD000315,Gold Juice 315,Beverages,Juice,Navya,190.38,265.19,90,1 L,Y,2025-12-14T03:00:00Z
+PRD000316,Classic Biscuits 316,Snacks,Biscuits,Navya,201.06,256.01,30,1 kg,Y,2025-12-14T04:00:00Z
+PRD000317,Natural Skin Care 317,Personal Care,Skin Care,Sampoorna,137.22,188.52,365,1 kg,Y,2025-12-14T05:00:00Z
+PRD000318,Daily Detergent 318,Home Care,Detergent,Utsav,330.61,409.19,365,500 g,Y,2025-12-14T06:00:00Z
+PRD000319,Fresh Grains 319,Staples,Grains,Utsav,196.26,283.32,365,100 g,Y,2025-12-14T07:00:00Z
+PRD000320,Classic Juice 320,Beverages,Juice,Prakriti,460.23,602.12,30,100 g,Y,2025-12-14T08:00:00Z
+PRD000321,Fresh Biscuits 321,Snacks,Biscuits,Prakriti,336.22,410.63,540,1 kg,Y,2025-12-14T09:00:00Z
+PRD000322,Daily Skin Care 322,Personal Care,Skin Care,Utsav,422.95,600.98,30,100 g,Y,2025-12-14T10:00:00Z
+PRD000323,Classic Detergent 323,Home Care,Detergent,Prakriti,312.16,403.3,365,250 g,Y,2025-12-14T11:00:00Z
+PRD000324,Gold Grains 324,Staples,Grains,Sampoorna,189.69,236.67,90,1 L,Y,2025-12-14T12:00:00Z
+PRD000325,Fresh Juice 325,Beverages,Juice,Utsav,120.14,158.77,180,1 L,Y,2025-12-14T13:00:00Z
+PRD000326,Fresh Biscuits 326,Snacks,Biscuits,Navya,302.15,408.22,30,500 g,Y,2025-12-14T14:00:00Z
+PRD000327,Natural Skin Care 327,Personal Care,Skin Care,Utsav,78.59,123.52,90,250 g,Y,2025-12-14T15:00:00Z
+PRD000328,Classic Detergent 328,Home Care,Detergent,Navya,450.6,535.4,180,100 g,Y,2025-12-14T16:00:00Z
+PRD000329,Natural Grains 329,Staples,Grains,Navya,351.03,489.67,90,1 L,Y,2025-12-14T17:00:00Z
+PRD000330,Daily Juice 330,Beverages,Juice,Prakriti,197.64,311.3,90,100 g,Y,2025-12-14T18:00:00Z
+PRD000331,Daily Biscuits 331,Snacks,Biscuits,Prakriti,452.34,527.92,180,100 g,Y,2025-12-14T19:00:00Z
+PRD000332,Fresh Skin Care 332,Personal Care,Skin Care,Prakriti,133.25,195.54,90,1 L,Y,2025-12-14T20:00:00Z
+PRD000333,Daily Detergent 333,Home Care,Detergent,Utsav,264.66,406.77,90,500 g,Y,2025-12-14T21:00:00Z
+PRD000334,Natural Grains 334,Staples,Grains,Utsav,61.76,89.99,30,250 g,Y,2025-12-14T22:00:00Z
+PRD000335,Classic Juice 335,Beverages,Juice,Utsav,294.21,365.21,90,1 kg,Y,2025-12-14T23:00:00Z
+PRD000336,Classic Biscuits 336,Snacks,Biscuits,Prakriti,342.39,504.89,180,1 L,Y,2025-12-15T00:00:00Z
+PRD000337,Fresh Skin Care 337,Personal Care,Skin Care,Navya,371.75,552.66,30,1 kg,Y,2025-12-15T01:00:00Z
+PRD000338,Natural Detergent 338,Home Care,Detergent,Sampoorna,401,562.35,180,1 kg,Y,2025-12-15T02:00:00Z
+PRD000339,Natural Grains 339,Staples,Grains,Navya,102.71,130.98,180,100 g,Y,2025-12-15T03:00:00Z
+PRD000340,Classic Juice 340,Beverages,Juice,Utsav,255.21,404.51,90,1 L,Y,2025-12-15T04:00:00Z
+PRD000341,Daily Biscuits 341,Snacks,Biscuits,Utsav,289.54,412.95,90,250 g,Y,2025-12-15T05:00:00Z
+PRD000342,Fresh Skin Care 342,Personal Care,Skin Care,Aarohan,184.94,291.71,180,250 g,N,2025-12-15T06:00:00Z
+PRD000343,Fresh Detergent 343,Home Care,Detergent,Utsav,143.57,208.2,90,500 g,Y,2025-12-15T07:00:00Z
+PRD000344,Classic Grains 344,Staples,Grains,Prakriti,442.94,595.4,540,250 g,Y,2025-12-15T08:00:00Z
+PRD000345,Classic Juice 345,Beverages,Juice,Prakriti,163.41,226.68,540,100 g,Y,2025-12-15T09:00:00Z
+PRD000346,Gold Biscuits 346,Snacks,Biscuits,Prakriti,201,259.71,30,1 kg,Y,2025-12-15T10:00:00Z
+PRD000347,Fresh Skin Care 347,Personal Care,Skin Care,Sampoorna,267.13,342.71,180,500 g,Y,2025-12-15T11:00:00Z
+PRD000348,Natural Detergent 348,Home Care,Detergent,Aarohan,114.47,155.68,540,100 g,Y,2025-12-15T12:00:00Z
+PRD000349,Classic Grains 349,Staples,Grains,Utsav,213.47,300.55,90,1 kg,Y,2025-12-15T13:00:00Z
+PRD000350,Classic Juice 350,Beverages,Juice,Utsav,65.74,99.12,365,500 g,Y,2025-12-15T14:00:00Z
+PRD000351,Gold Biscuits 351,Snacks,Biscuits,Navya,20.09,23.39,365,1 kg,Y,2025-12-15T15:00:00Z
+PRD000352,Natural Skin Care 352,Personal Care,Skin Care,Navya,351.05,483.06,365,1 kg,Y,2025-12-15T16:00:00Z
+PRD000353,Gold Detergent 353,Home Care,Detergent,Aarohan,252.02,395.85,90,1 kg,Y,2025-12-15T17:00:00Z
+PRD000354,Gold Grains 354,Staples,Grains,Navya,377.93,487.43,540,1 L,Y,2025-12-15T18:00:00Z
+PRD000355,Natural Juice 355,Beverages,Juice,Sampoorna,111.04,167.93,90,500 g,Y,2025-12-15T19:00:00Z
+PRD000356,Daily Biscuits 356,Snacks,Biscuits,Aarohan,249.96,361.45,30,250 g,Y,2025-12-15T20:00:00Z
+PRD000357,Natural Skin Care 357,Personal Care,Skin Care,Aarohan,436.78,548.2,30,1 kg,Y,2025-12-15T21:00:00Z
+PRD000358,Fresh Detergent 358,Home Care,Detergent,Aarohan,74.74,99.72,30,250 g,Y,2025-12-15T22:00:00Z
+PRD000359,Fresh Grains 359,Staples,Grains,Sampoorna,139.78,203.42,90,500 g,Y,2025-12-15T23:00:00Z
+PRD000360,Gold Juice 360,Beverages,Juice,Utsav,213.28,298.5,365,250 g,Y,2025-12-16T00:00:00Z
+PRD000361,Daily Biscuits 361,Snacks,Biscuits,Prakriti,346.96,481.5,540,500 g,Y,2025-12-16T01:00:00Z
+PRD000362,Natural Skin Care 362,Personal Care,Skin Care,Navya,176.55,214.6,540,1 kg,Y,2025-12-16T02:00:00Z
+PRD000363,Gold Detergent 363,Home Care,Detergent,Sampoorna,28.09,32.61,30,1 kg,Y,2025-12-16T03:00:00Z
+PRD000364,Gold Grains 364,Staples,Grains,Prakriti,85.32,121.17,540,100 g,Y,2025-12-16T04:00:00Z
+PRD000365,Natural Juice 365,Beverages,Juice,Utsav,123.54,179.64,90,500 g,Y,2025-12-16T05:00:00Z
+PRD000366,Fresh Biscuits 366,Snacks,Biscuits,Aarohan,411.64,586.21,90,100 g,Y,2025-12-16T06:00:00Z
+PRD000367,Fresh Skin Care 367,Personal Care,Skin Care,Prakriti,314.84,438.17,30,500 g,Y,2025-12-16T07:00:00Z
+PRD000368,Natural Detergent 368,Home Care,Detergent,Navya,349.1,428.71,365,1 L,Y,2025-12-16T08:00:00Z
+PRD000369,Daily Grains 369,Staples,Grains,Sampoorna,285.14,373.97,365,1 kg,Y,2025-12-16T09:00:00Z
+PRD000370,Gold Juice 370,Beverages,Juice,Aarohan,333.33,443.82,365,1 L,Y,2025-12-16T10:00:00Z
+PRD000371,Daily Biscuits 371,Snacks,Biscuits,Aarohan,303.25,397.66,30,250 g,Y,2025-12-16T11:00:00Z
+PRD000372,Gold Skin Care 372,Personal Care,Skin Care,Utsav,46.35,64.81,540,1 L,Y,2025-12-16T12:00:00Z
+PRD000373,Fresh Detergent 373,Home Care,Detergent,Navya,344.67,408.85,180,250 g,Y,2025-12-16T13:00:00Z
+PRD000374,Natural Grains 374,Staples,Grains,Aarohan,410.02,499.82,90,1 L,Y,2025-12-16T14:00:00Z
+PRD000375,Classic Juice 375,Beverages,Juice,Utsav,453.92,677.07,90,500 g,Y,2025-12-16T15:00:00Z
+PRD000376,Classic Biscuits 376,Snacks,Biscuits,Navya,68.33,90.09,180,1 L,Y,2025-12-16T16:00:00Z
+PRD000377,Gold Skin Care 377,Personal Care,Skin Care,Aarohan,52.27,67.56,365,1 L,Y,2025-12-16T17:00:00Z
+PRD000378,Fresh Detergent 378,Home Care,Detergent,Utsav,248.11,303.59,365,1 L,Y,2025-12-16T18:00:00Z
+PRD000379,Classic Grains 379,Staples,Grains,Navya,194.84,256.46,30,500 g,Y,2025-12-16T19:00:00Z
+PRD000380,Gold Juice 380,Beverages,Juice,Aarohan,203.83,272.24,30,100 g,Y,2025-12-16T20:00:00Z
+PRD000381,Daily Biscuits 381,Snacks,Biscuits,Sampoorna,465.64,573.24,180,500 g,Y,2025-12-16T21:00:00Z
+PRD000382,Fresh Skin Care 382,Personal Care,Skin Care,Sampoorna,264.61,370.4,365,100 g,Y,2025-12-16T22:00:00Z
+PRD000383,Natural Detergent 383,Home Care,Detergent,Aarohan,130.38,194.68,90,500 g,Y,2025-12-16T23:00:00Z
+PRD000384,Daily Grains 384,Staples,Grains,Prakriti,446.2,629.19,180,1 L,Y,2025-12-17T00:00:00Z
+PRD000385,Fresh Juice 385,Beverages,Juice,Aarohan,439.85,598.42,540,1 kg,Y,2025-12-17T01:00:00Z
+PRD000386,Gold Biscuits 386,Snacks,Biscuits,Sampoorna,241.43,367.47,180,1 L,Y,2025-12-17T02:00:00Z
+PRD000387,Gold Skin Care 387,Personal Care,Skin Care,Aarohan,59.46,73.33,540,250 g,Y,2025-12-17T03:00:00Z
+PRD000388,Classic Detergent 388,Home Care,Detergent,Navya,256.59,408.23,180,500 g,Y,2025-12-17T04:00:00Z
+PRD000389,Natural Grains 389,Staples,Grains,Prakriti,451.35,572.42,365,100 g,Y,2025-12-17T05:00:00Z
+PRD000390,Gold Juice 390,Beverages,Juice,Utsav,315.44,433.21,90,1 kg,Y,2025-12-17T06:00:00Z
+PRD000391,Gold Biscuits 391,Snacks,Biscuits,Aarohan,217.27,327.53,30,1 L,Y,2025-12-17T07:00:00Z
+PRD000392,Fresh Skin Care 392,Personal Care,Skin Care,Sampoorna,197.4,275.51,180,250 g,Y,2025-12-17T08:00:00Z
+PRD000393,Natural Detergent 393,Home Care,Detergent,Aarohan,245.55,282.83,365,500 g,Y,2025-12-17T09:00:00Z
+PRD000394,Natural Grains 394,Staples,Grains,Aarohan,230.84,349.99,365,1 kg,Y,2025-12-17T10:00:00Z
+PRD000395,Fresh Juice 395,Beverages,Juice,Aarohan,235.48,338.92,180,1 kg,Y,2025-12-17T11:00:00Z
+PRD000396,Daily Biscuits 396,Snacks,Biscuits,Prakriti,333.19,476.94,540,1 kg,Y,2025-12-17T12:00:00Z
+PRD000397,Gold Skin Care 397,Personal Care,Skin Care,Utsav,393.17,605.62,180,1 L,Y,2025-12-17T13:00:00Z
+PRD000398,Classic Detergent 398,Home Care,Detergent,Aarohan,183.24,213.42,365,1 L,Y,2025-12-17T14:00:00Z
+PRD000399,Daily Grains 399,Staples,Grains,Prakriti,362.4,448.56,30,250 g,N,2025-12-17T15:00:00Z
+PRD000400,Gold Juice 400,Beverages,Juice,Prakriti,227.87,297.28,90,1 kg,Y,2025-12-17T16:00:00Z
+PRD000401,Gold Biscuits 401,Snacks,Biscuits,Utsav,93.58,140.31,365,500 g,Y,2025-12-17T17:00:00Z
+PRD000402,Natural Skin Care 402,Personal Care,Skin Care,Aarohan,268.29,417.99,180,1 kg,Y,2025-12-17T18:00:00Z
+PRD000403,Daily Detergent 403,Home Care,Detergent,Utsav,43.58,64.3,30,500 g,Y,2025-12-17T19:00:00Z
+PRD000404,Gold Grains 404,Staples,Grains,Prakriti,250.32,294.53,540,1 L,Y,2025-12-17T20:00:00Z
+PRD000405,Fresh Juice 405,Beverages,Juice,Utsav,259.48,305.96,30,100 g,Y,2025-12-17T21:00:00Z
+PRD000406,Daily Biscuits 406,Snacks,Biscuits,Prakriti,201.12,285.88,90,1 kg,Y,2025-12-17T22:00:00Z
+PRD000407,Fresh Skin Care 407,Personal Care,Skin Care,Sampoorna,105.89,150.24,540,1 kg,Y,2025-12-17T23:00:00Z
+PRD000408,Daily Detergent 408,Home Care,Detergent,Sampoorna,246.58,313.73,540,1 L,Y,2025-12-18T00:00:00Z
+PRD000409,Fresh Grains 409,Staples,Grains,Prakriti,312.57,399.72,90,1 L,Y,2025-12-18T01:00:00Z
+PRD000410,Gold Juice 410,Beverages,Juice,Navya,359.47,554.58,180,500 g,Y,2025-12-18T02:00:00Z
+PRD000411,Natural Biscuits 411,Snacks,Biscuits,Navya,257.25,379.5,180,500 g,Y,2025-12-18T03:00:00Z
+PRD000412,Classic Skin Care 412,Personal Care,Skin Care,Aarohan,231.67,370.52,180,100 g,Y,2025-12-18T04:00:00Z
+PRD000413,Fresh Detergent 413,Home Care,Detergent,Prakriti,370.4,455.87,180,1 kg,Y,2025-12-18T05:00:00Z
+PRD000414,Daily Grains 414,Staples,Grains,Sampoorna,282.05,333.48,90,250 g,Y,2025-12-18T06:00:00Z
+PRD000415,Fresh Juice 415,Beverages,Juice,Utsav,122.9,180.35,180,500 g,Y,2025-12-18T07:00:00Z
+PRD000416,Gold Biscuits 416,Snacks,Biscuits,Navya,135.54,198.36,540,250 g,Y,2025-12-18T08:00:00Z
+PRD000417,Fresh Skin Care 417,Personal Care,Skin Care,Aarohan,446.98,539.07,90,250 g,Y,2025-12-18T09:00:00Z
+PRD000418,Daily Detergent 418,Home Care,Detergent,Aarohan,214.8,342.28,365,500 g,Y,2025-12-18T10:00:00Z
+PRD000419,Daily Grains 419,Staples,Grains,Aarohan,71.67,84.82,365,500 g,Y,2025-12-18T11:00:00Z
+PRD000420,Natural Juice 420,Beverages,Juice,Sampoorna,283.83,452.4,365,100 g,Y,2025-12-18T12:00:00Z
+PRD000421,Classic Biscuits 421,Snacks,Biscuits,Utsav,386.2,541,90,1 L,Y,2025-12-18T13:00:00Z
+PRD000422,Gold Skin Care 422,Personal Care,Skin Care,Aarohan,452.5,701.92,30,500 g,Y,2025-12-18T14:00:00Z
+PRD000423,Fresh Detergent 423,Home Care,Detergent,Navya,262.13,390.03,90,250 g,Y,2025-12-18T15:00:00Z
+PRD000424,Fresh Grains 424,Staples,Grains,Prakriti,250.08,309.11,540,100 g,Y,2025-12-18T16:00:00Z
+PRD000425,Gold Juice 425,Beverages,Juice,Utsav,216.21,301.38,365,500 g,Y,2025-12-18T17:00:00Z
+PRD000426,Gold Biscuits 426,Snacks,Biscuits,Prakriti,258.76,380.51,365,100 g,Y,2025-12-18T18:00:00Z
+PRD000427,Fresh Skin Care 427,Personal Care,Skin Care,Aarohan,298.47,407.04,180,1 L,Y,2025-12-18T19:00:00Z
+PRD000428,Gold Detergent 428,Home Care,Detergent,Prakriti,394.37,525.59,365,1 kg,Y,2025-12-18T20:00:00Z
+PRD000429,Fresh Grains 429,Staples,Grains,Utsav,269.28,313.69,180,100 g,Y,2025-12-18T21:00:00Z
+PRD000430,Natural Juice 430,Beverages,Juice,Prakriti,225.64,356.61,30,1 L,Y,2025-12-18T22:00:00Z
+PRD000431,Daily Biscuits 431,Snacks,Biscuits,Aarohan,442.83,547.5,30,1 L,Y,2025-12-18T23:00:00Z
+PRD000432,Natural Skin Care 432,Personal Care,Skin Care,Prakriti,105.83,149.85,90,1 L,Y,2025-12-19T00:00:00Z
+PRD000433,Natural Detergent 433,Home Care,Detergent,Aarohan,305.64,381.32,90,250 g,Y,2025-12-19T01:00:00Z
+PRD000434,Daily Grains 434,Staples,Grains,Navya,314.64,465.58,180,1 kg,Y,2025-12-19T02:00:00Z
+PRD000435,Gold Juice 435,Beverages,Juice,Utsav,82.32,107.94,30,1 L,Y,2025-12-19T03:00:00Z
+PRD000436,Classic Biscuits 436,Snacks,Biscuits,Utsav,322.45,513.78,365,500 g,Y,2025-12-19T04:00:00Z
+PRD000437,Gold Skin Care 437,Personal Care,Skin Care,Utsav,36.34,43.91,365,1 kg,Y,2025-12-19T05:00:00Z
+PRD000438,Gold Detergent 438,Home Care,Detergent,Navya,79.97,106.27,180,1 kg,Y,2025-12-19T06:00:00Z
+PRD000439,Fresh Grains 439,Staples,Grains,Aarohan,93.69,125.72,365,250 g,Y,2025-12-19T07:00:00Z
+PRD000440,Daily Juice 440,Beverages,Juice,Sampoorna,87.74,109.4,90,100 g,Y,2025-12-19T08:00:00Z
+PRD000441,Classic Biscuits 441,Snacks,Biscuits,Navya,175.49,236.63,30,1 L,Y,2025-12-19T09:00:00Z
+PRD000442,Fresh Skin Care 442,Personal Care,Skin Care,Navya,347.55,455.19,365,500 g,Y,2025-12-19T10:00:00Z
+PRD000443,Natural Detergent 443,Home Care,Detergent,Aarohan,422.53,579.2,540,250 g,Y,2025-12-19T11:00:00Z
+PRD000444,Fresh Grains 444,Staples,Grains,Prakriti,287.47,338.2,540,1 kg,Y,2025-12-19T12:00:00Z
+PRD000445,Fresh Juice 445,Beverages,Juice,Navya,264.88,388.78,30,1 kg,Y,2025-12-19T13:00:00Z
+PRD000446,Gold Biscuits 446,Snacks,Biscuits,Utsav,190.41,303.22,30,1 L,Y,2025-12-19T14:00:00Z
+PRD000447,Daily Skin Care 447,Personal Care,Skin Care,Navya,345.26,413.79,365,500 g,Y,2025-12-19T15:00:00Z
+PRD000448,Daily Detergent 448,Home Care,Detergent,Utsav,38.45,57.57,365,100 g,Y,2025-12-19T16:00:00Z
+PRD000449,Gold Grains 449,Staples,Grains,Sampoorna,435.77,622.22,180,100 g,Y,2025-12-19T17:00:00Z
+PRD000450,Gold Juice 450,Beverages,Juice,Navya,40.49,52.65,540,250 g,Y,2025-12-19T18:00:00Z
+PRD000451,Gold Biscuits 451,Snacks,Biscuits,Prakriti,54.23,83.79,180,250 g,Y,2025-12-19T19:00:00Z
+PRD000452,Classic Skin Care 452,Personal Care,Skin Care,Prakriti,446.74,533.17,30,100 g,Y,2025-12-19T20:00:00Z
+PRD000453,Gold Detergent 453,Home Care,Detergent,Utsav,154.89,242.38,30,1 kg,Y,2025-12-19T21:00:00Z
+PRD000454,Classic Grains 454,Staples,Grains,Sampoorna,463.73,670.2,540,1 kg,Y,2025-12-19T22:00:00Z
+PRD000455,Daily Juice 455,Beverages,Juice,Sampoorna,108.66,138.29,90,1 kg,Y,2025-12-19T23:00:00Z
+PRD000456,Daily Biscuits 456,Snacks,Biscuits,Prakriti,83.93,120.88,365,1 kg,N,2025-12-20T00:00:00Z
+PRD000457,Gold Skin Care 457,Personal Care,Skin Care,Sampoorna,67.01,89.1,540,1 kg,Y,2025-12-20T01:00:00Z
+PRD000458,Natural Detergent 458,Home Care,Detergent,Navya,348.14,438.16,30,1 kg,Y,2025-12-20T02:00:00Z
+PRD000459,Classic Grains 459,Staples,Grains,Utsav,337.38,462.35,90,100 g,Y,2025-12-20T03:00:00Z
+PRD000460,Natural Juice 460,Beverages,Juice,Prakriti,360.6,548.01,30,1 kg,Y,2025-12-20T04:00:00Z
+PRD000461,Fresh Biscuits 461,Snacks,Biscuits,Utsav,399.94,594.69,30,500 g,Y,2025-12-20T05:00:00Z
+PRD000462,Natural Skin Care 462,Personal Care,Skin Care,Navya,265.78,318.09,540,100 g,Y,2025-12-20T06:00:00Z
+PRD000463,Daily Detergent 463,Home Care,Detergent,Navya,288.22,422.48,30,1 L,Y,2025-12-20T07:00:00Z
+PRD000464,Fresh Grains 464,Staples,Grains,Aarohan,407.52,598.23,365,250 g,Y,2025-12-20T08:00:00Z
+PRD000465,Daily Juice 465,Beverages,Juice,Sampoorna,233.09,305.93,365,1 L,Y,2025-12-20T09:00:00Z
+PRD000466,Fresh Biscuits 466,Snacks,Biscuits,Navya,228.83,276.38,365,1 L,Y,2025-12-20T10:00:00Z
+PRD000467,Classic Skin Care 467,Personal Care,Skin Care,Sampoorna,211.43,251.84,90,250 g,Y,2025-12-20T11:00:00Z
+PRD000468,Classic Detergent 468,Home Care,Detergent,Prakriti,330.04,451.44,365,100 g,Y,2025-12-20T12:00:00Z
+PRD000469,Gold Grains 469,Staples,Grains,Navya,376.73,487.38,90,500 g,Y,2025-12-20T13:00:00Z
+PRD000470,Natural Juice 470,Beverages,Juice,Sampoorna,144.88,179.78,365,250 g,Y,2025-12-20T14:00:00Z
+PRD000471,Daily Biscuits 471,Snacks,Biscuits,Aarohan,409.46,479.42,90,250 g,Y,2025-12-20T15:00:00Z
+PRD000472,Fresh Skin Care 472,Personal Care,Skin Care,Prakriti,180.57,237.42,90,1 kg,Y,2025-12-20T16:00:00Z
+PRD000473,Natural Detergent 473,Home Care,Detergent,Navya,448.13,578.56,540,500 g,Y,2025-12-20T17:00:00Z
+PRD000474,Natural Grains 474,Staples,Grains,Utsav,448.25,612.89,30,500 g,Y,2025-12-20T18:00:00Z
+PRD000475,Natural Juice 475,Beverages,Juice,Sampoorna,453.38,636.96,30,1 kg,Y,2025-12-20T19:00:00Z
+PRD000476,Daily Biscuits 476,Snacks,Biscuits,Aarohan,315.88,403.18,540,1 L,Y,2025-12-20T20:00:00Z
+PRD000477,Classic Skin Care 477,Personal Care,Skin Care,Prakriti,224.83,297.09,540,1 L,Y,2025-12-20T21:00:00Z
+PRD000478,Natural Detergent 478,Home Care,Detergent,Sampoorna,100.05,156.82,365,100 g,Y,2025-12-20T22:00:00Z
+PRD000479,Natural Grains 479,Staples,Grains,Navya,76.64,101.65,180,500 g,Y,2025-12-20T23:00:00Z
+PRD000480,Daily Juice 480,Beverages,Juice,Sampoorna,320.61,467.17,180,500 g,Y,2025-12-21T00:00:00Z
+PRD000481,Gold Biscuits 481,Snacks,Biscuits,Sampoorna,274.68,366.17,180,500 g,Y,2025-12-21T01:00:00Z
+PRD000482,Classic Skin Care 482,Personal Care,Skin Care,Sampoorna,133.07,157.94,90,1 L,Y,2025-12-21T02:00:00Z
+PRD000483,Classic Detergent 483,Home Care,Detergent,Navya,84.17,118.53,90,250 g,Y,2025-12-21T03:00:00Z
+PRD000484,Classic Grains 484,Staples,Grains,Navya,298.18,426.76,540,250 g,Y,2025-12-21T04:00:00Z
+PRD000485,Fresh Juice 485,Beverages,Juice,Aarohan,250.05,372.6,365,250 g,Y,2025-12-21T05:00:00Z
+PRD000486,Classic Biscuits 486,Snacks,Biscuits,Sampoorna,386.11,461.01,365,100 g,Y,2025-12-21T06:00:00Z
+PRD000487,Daily Skin Care 487,Personal Care,Skin Care,Navya,157.83,184.86,30,500 g,Y,2025-12-21T07:00:00Z
+PRD000488,Classic Detergent 488,Home Care,Detergent,Sampoorna,416.57,642.27,180,1 L,Y,2025-12-21T08:00:00Z
+PRD000489,Daily Grains 489,Staples,Grains,Prakriti,181.55,245.54,90,1 L,Y,2025-12-21T09:00:00Z
+PRD000490,Daily Juice 490,Beverages,Juice,Utsav,273.28,381.43,90,1 kg,Y,2025-12-21T10:00:00Z
+PRD000491,Classic Biscuits 491,Snacks,Biscuits,Aarohan,160.63,209.89,365,1 kg,Y,2025-12-21T11:00:00Z
+PRD000492,Classic Skin Care 492,Personal Care,Skin Care,Prakriti,369.52,445.33,30,500 g,Y,2025-12-21T12:00:00Z
+PRD000493,Fresh Detergent 493,Home Care,Detergent,Sampoorna,295.18,377.16,180,1 L,Y,2025-12-21T13:00:00Z
+PRD000494,Gold Grains 494,Staples,Grains,Navya,66.62,82.74,30,500 g,Y,2025-12-21T14:00:00Z
+PRD000495,Natural Juice 495,Beverages,Juice,Navya,29.07,41.12,540,1 L,Y,2025-12-21T15:00:00Z
+PRD000496,Classic Biscuits 496,Snacks,Biscuits,Sampoorna,121.31,153.83,180,1 L,Y,2025-12-21T16:00:00Z
+PRD000497,Gold Skin Care 497,Personal Care,Skin Care,Sampoorna,259.71,357.24,180,250 g,Y,2025-12-21T17:00:00Z
+PRD000498,Gold Detergent 498,Home Care,Detergent,Sampoorna,187.05,267.93,30,1 L,Y,2025-12-21T18:00:00Z
+PRD000499,Daily Grains 499,Staples,Grains,Navya,254.57,302.96,180,500 g,Y,2025-12-21T19:00:00Z
+PRD000500,Natural Juice 500,Beverages,Juice,Sampoorna,244.65,348.16,540,100 g,Y,2025-12-21T20:00:00Z
+PRD000501,Fresh Biscuits 501,Snacks,Biscuits,Sampoorna,381.13,572.65,180,500 g,Y,2025-12-21T21:00:00Z
+PRD000502,Gold Skin Care 502,Personal Care,Skin Care,Prakriti,141.06,181.42,180,100 g,Y,2025-12-21T22:00:00Z
+PRD000503,Gold Detergent 503,Home Care,Detergent,Navya,405.37,543.47,90,1 L,Y,2025-12-21T23:00:00Z
+PRD000504,Gold Grains 504,Staples,Grains,Prakriti,458.01,591.71,540,1 L,Y,2025-12-22T00:00:00Z
+PRD000505,Fresh Juice 505,Beverages,Juice,Sampoorna,82.89,130.72,540,250 g,Y,2025-12-22T01:00:00Z
+PRD000506,Fresh Biscuits 506,Snacks,Biscuits,Prakriti,162.6,201.87,540,100 g,Y,2025-12-22T02:00:00Z
+PRD000507,Classic Skin Care 507,Personal Care,Skin Care,Utsav,26.56,32.06,180,1 kg,Y,2025-12-22T03:00:00Z
+PRD000508,Daily Detergent 508,Home Care,Detergent,Navya,403.2,525.79,365,500 g,Y,2025-12-22T04:00:00Z
+PRD000509,Classic Grains 509,Staples,Grains,Sampoorna,23.45,35.98,540,500 g,Y,2025-12-22T05:00:00Z
+PRD000510,Daily Juice 510,Beverages,Juice,Sampoorna,465.88,683.36,90,500 g,Y,2025-12-22T06:00:00Z
+PRD000511,Classic Biscuits 511,Snacks,Biscuits,Navya,95.84,126.43,30,1 kg,Y,2025-12-22T07:00:00Z
+PRD000512,Fresh Skin Care 512,Personal Care,Skin Care,Sampoorna,171.38,235.51,180,1 kg,Y,2025-12-22T08:00:00Z
+PRD000513,Natural Detergent 513,Home Care,Detergent,Sampoorna,158.21,202.04,90,1 L,N,2025-12-22T09:00:00Z
+PRD000514,Natural Grains 514,Staples,Grains,Prakriti,256.24,334.29,30,1 kg,Y,2025-12-22T10:00:00Z
+PRD000515,Classic Juice 515,Beverages,Juice,Utsav,462.06,608.39,90,1 L,Y,2025-12-22T11:00:00Z
+PRD000516,Daily Biscuits 516,Snacks,Biscuits,Navya,331.2,393.9,180,250 g,Y,2025-12-22T12:00:00Z
+PRD000517,Natural Skin Care 517,Personal Care,Skin Care,Prakriti,402.2,475.74,540,1 kg,Y,2025-12-22T13:00:00Z
+PRD000518,Daily Detergent 518,Home Care,Detergent,Navya,379.73,584.56,365,250 g,Y,2025-12-22T14:00:00Z
+PRD000519,Fresh Grains 519,Staples,Grains,Prakriti,327.85,460.84,30,500 g,Y,2025-12-22T15:00:00Z
+PRD000520,Fresh Juice 520,Beverages,Juice,Utsav,245.76,375.23,180,1 L,Y,2025-12-22T16:00:00Z
+PRD000521,Gold Biscuits 521,Snacks,Biscuits,Utsav,254.92,387.58,90,100 g,Y,2025-12-22T17:00:00Z
+PRD000522,Fresh Skin Care 522,Personal Care,Skin Care,Aarohan,67.51,99.36,180,250 g,Y,2025-12-22T18:00:00Z
+PRD000523,Daily Detergent 523,Home Care,Detergent,Utsav,34.09,51.49,540,100 g,Y,2025-12-22T19:00:00Z
+PRD000524,Gold Grains 524,Staples,Grains,Prakriti,117.47,170.61,365,250 g,Y,2025-12-22T20:00:00Z
+PRD000525,Classic Juice 525,Beverages,Juice,Utsav,355.61,423.24,540,500 g,Y,2025-12-22T21:00:00Z
+PRD000526,Fresh Biscuits 526,Snacks,Biscuits,Aarohan,167.42,208.81,30,250 g,Y,2025-12-22T22:00:00Z
+PRD000527,Natural Skin Care 527,Personal Care,Skin Care,Navya,230.95,266.67,90,500 g,Y,2025-12-22T23:00:00Z
+PRD000528,Daily Detergent 528,Home Care,Detergent,Sampoorna,322.43,459.82,30,1 kg,Y,2025-12-23T00:00:00Z
+PRD000529,Gold Grains 529,Staples,Grains,Sampoorna,373.42,594.66,30,1 L,Y,2025-12-23T01:00:00Z
+PRD000530,Gold Juice 530,Beverages,Juice,Navya,87.28,114.74,180,1 kg,Y,2025-12-23T02:00:00Z
+PRD000531,Fresh Biscuits 531,Snacks,Biscuits,Utsav,414.25,497.57,180,500 g,Y,2025-12-23T03:00:00Z
+PRD000532,Natural Skin Care 532,Personal Care,Skin Care,Utsav,421.5,577.09,90,1 kg,Y,2025-12-23T04:00:00Z
+PRD000533,Gold Detergent 533,Home Care,Detergent,Sampoorna,122.53,161.74,30,1 L,Y,2025-12-23T05:00:00Z
+PRD000534,Natural Grains 534,Staples,Grains,Prakriti,213.55,313.74,180,250 g,Y,2025-12-23T06:00:00Z
+PRD000535,Daily Juice 535,Beverages,Juice,Sampoorna,39.6,50.87,540,500 g,Y,2025-12-23T07:00:00Z
+PRD000536,Daily Biscuits 536,Snacks,Biscuits,Aarohan,31.62,44.09,180,100 g,Y,2025-12-23T08:00:00Z
+PRD000537,Gold Skin Care 537,Personal Care,Skin Care,Sampoorna,114.36,143.05,90,500 g,Y,2025-12-23T09:00:00Z
+PRD000538,Gold Detergent 538,Home Care,Detergent,Utsav,296.78,347.88,540,250 g,Y,2025-12-23T10:00:00Z
+PRD000539,Classic Grains 539,Staples,Grains,Prakriti,258.78,299.78,365,1 L,Y,2025-12-23T11:00:00Z
+PRD000540,Classic Juice 540,Beverages,Juice,Navya,451.65,682.2,365,100 g,Y,2025-12-23T12:00:00Z
+PRD000541,Natural Biscuits 541,Snacks,Biscuits,Navya,292.73,344.04,30,1 L,Y,2025-12-23T13:00:00Z
+PRD000542,Fresh Skin Care 542,Personal Care,Skin Care,Navya,162.83,232.88,365,1 L,Y,2025-12-23T14:00:00Z
+PRD000543,Daily Detergent 543,Home Care,Detergent,Utsav,24.5,36.63,365,500 g,Y,2025-12-23T15:00:00Z
+PRD000544,Natural Grains 544,Staples,Grains,Navya,42.39,57.6,180,500 g,Y,2025-12-23T16:00:00Z
+PRD000545,Daily Juice 545,Beverages,Juice,Sampoorna,73.37,114.95,365,250 g,Y,2025-12-23T17:00:00Z
+PRD000546,Daily Biscuits 546,Snacks,Biscuits,Prakriti,400.51,469.49,365,1 L,Y,2025-12-23T18:00:00Z
+PRD000547,Gold Skin Care 547,Personal Care,Skin Care,Navya,399.15,572.18,90,1 L,Y,2025-12-23T19:00:00Z
+PRD000548,Daily Detergent 548,Home Care,Detergent,Navya,450.27,629.91,540,1 kg,Y,2025-12-23T20:00:00Z
+PRD000549,Natural Grains 549,Staples,Grains,Prakriti,170.1,245.66,90,500 g,Y,2025-12-23T21:00:00Z
+PRD000550,Classic Juice 550,Beverages,Juice,Sampoorna,407.57,540.19,30,250 g,Y,2025-12-23T22:00:00Z
+PRD000551,Natural Biscuits 551,Snacks,Biscuits,Aarohan,154.93,212.5,540,1 kg,Y,2025-12-23T23:00:00Z
+PRD000552,Gold Skin Care 552,Personal Care,Skin Care,Navya,290.08,456.02,30,1 L,Y,2025-12-24T00:00:00Z
+PRD000553,Fresh Detergent 553,Home Care,Detergent,Utsav,40.6,56.62,90,250 g,Y,2025-12-24T01:00:00Z
+PRD000554,Gold Grains 554,Staples,Grains,Prakriti,74.06,101.59,365,250 g,Y,2025-12-24T02:00:00Z
+PRD000555,Classic Juice 555,Beverages,Juice,Navya,52.46,60.9,365,500 g,Y,2025-12-24T03:00:00Z
+PRD000556,Gold Biscuits 556,Snacks,Biscuits,Sampoorna,118.87,180.43,30,1 L,Y,2025-12-24T04:00:00Z
+PRD000557,Fresh Skin Care 557,Personal Care,Skin Care,Prakriti,107.79,136.56,180,100 g,Y,2025-12-24T05:00:00Z
+PRD000558,Gold Detergent 558,Home Care,Detergent,Aarohan,116.42,154.11,90,500 g,Y,2025-12-24T06:00:00Z
+PRD000559,Fresh Grains 559,Staples,Grains,Prakriti,270.35,358.18,540,250 g,Y,2025-12-24T07:00:00Z
+PRD000560,Classic Juice 560,Beverages,Juice,Navya,261.07,306.65,365,100 g,Y,2025-12-24T08:00:00Z
+PRD000561,Gold Biscuits 561,Snacks,Biscuits,Utsav,166.46,248.97,180,500 g,Y,2025-12-24T09:00:00Z
+PRD000562,Classic Skin Care 562,Personal Care,Skin Care,Prakriti,53.75,84.13,180,250 g,Y,2025-12-24T10:00:00Z
+PRD000563,Natural Detergent 563,Home Care,Detergent,Prakriti,157.82,184.25,540,100 g,Y,2025-12-24T11:00:00Z
+PRD000564,Daily Grains 564,Staples,Grains,Utsav,261.47,416.95,90,250 g,Y,2025-12-24T12:00:00Z
+PRD000565,Natural Juice 565,Beverages,Juice,Sampoorna,285.3,399.5,30,1 L,Y,2025-12-24T13:00:00Z
+PRD000566,Daily Biscuits 566,Snacks,Biscuits,Utsav,293.3,358.61,180,1 L,Y,2025-12-24T14:00:00Z
+PRD000567,Gold Skin Care 567,Personal Care,Skin Care,Utsav,104.98,155.75,365,100 g,Y,2025-12-24T15:00:00Z
+PRD000568,Classic Detergent 568,Home Care,Detergent,Utsav,93.07,135.25,180,1 L,Y,2025-12-24T16:00:00Z
+PRD000569,Natural Grains 569,Staples,Grains,Utsav,168.65,227.56,30,250 g,Y,2025-12-24T17:00:00Z
+PRD000570,Natural Juice 570,Beverages,Juice,Utsav,327.57,406.68,365,1 L,N,2025-12-24T18:00:00Z
+PRD000571,Daily Biscuits 571,Snacks,Biscuits,Aarohan,34.53,50.46,30,1 L,Y,2025-12-24T19:00:00Z
+PRD000572,Natural Skin Care 572,Personal Care,Skin Care,Utsav,266.21,358.37,90,1 L,Y,2025-12-24T20:00:00Z
+PRD000573,Gold Detergent 573,Home Care,Detergent,Navya,62.71,73.95,540,250 g,Y,2025-12-24T21:00:00Z
+PRD000574,Fresh Grains 574,Staples,Grains,Navya,65.18,81.17,180,250 g,Y,2025-12-24T22:00:00Z
+PRD000575,Natural Juice 575,Beverages,Juice,Utsav,261.82,395.39,90,1 kg,Y,2025-12-24T23:00:00Z
+PRD000576,Gold Biscuits 576,Snacks,Biscuits,Navya,394.77,511.72,180,250 g,Y,2025-12-25T00:00:00Z
+PRD000577,Gold Skin Care 577,Personal Care,Skin Care,Utsav,96.72,126.81,180,100 g,Y,2025-12-25T01:00:00Z
+PRD000578,Gold Detergent 578,Home Care,Detergent,Aarohan,384.36,502.31,180,500 g,Y,2025-12-25T02:00:00Z
+PRD000579,Classic Grains 579,Staples,Grains,Aarohan,159.4,239.3,180,1 kg,Y,2025-12-25T03:00:00Z
+PRD000580,Gold Juice 580,Beverages,Juice,Aarohan,132.03,192.3,30,250 g,Y,2025-12-25T04:00:00Z
+PRD000581,Natural Biscuits 581,Snacks,Biscuits,Aarohan,301.66,367.87,365,100 g,Y,2025-12-25T05:00:00Z
+PRD000582,Daily Skin Care 582,Personal Care,Skin Care,Utsav,294.6,435.46,540,1 L,Y,2025-12-25T06:00:00Z
+PRD000583,Gold Detergent 583,Home Care,Detergent,Navya,340.55,397.96,365,500 g,Y,2025-12-25T07:00:00Z
+PRD000584,Gold Grains 584,Staples,Grains,Aarohan,262.71,311.7,90,1 kg,Y,2025-12-25T08:00:00Z
+PRD000585,Fresh Juice 585,Beverages,Juice,Aarohan,291.41,451.88,365,500 g,Y,2025-12-25T09:00:00Z
+PRD000586,Fresh Biscuits 586,Snacks,Biscuits,Prakriti,401.91,490.09,180,500 g,Y,2025-12-25T10:00:00Z
+PRD000587,Fresh Skin Care 587,Personal Care,Skin Care,Prakriti,268.16,371.98,365,500 g,Y,2025-12-25T11:00:00Z
+PRD000588,Classic Detergent 588,Home Care,Detergent,Utsav,440.73,542.23,30,500 g,Y,2025-12-25T12:00:00Z
+PRD000589,Natural Grains 589,Staples,Grains,Utsav,34.88,42.8,90,100 g,Y,2025-12-25T13:00:00Z
+PRD000590,Daily Juice 590,Beverages,Juice,Utsav,449.76,542.1,540,1 L,Y,2025-12-25T14:00:00Z
+PRD000591,Daily Biscuits 591,Snacks,Biscuits,Aarohan,151.03,195.42,180,100 g,Y,2025-12-25T15:00:00Z
+PRD000592,Natural Skin Care 592,Personal Care,Skin Care,Utsav,353.35,455.82,365,1 kg,Y,2025-12-25T16:00:00Z
+PRD000593,Daily Detergent 593,Home Care,Detergent,Utsav,355.28,528.89,540,1 L,Y,2025-12-25T17:00:00Z
+PRD000594,Gold Grains 594,Staples,Grains,Prakriti,162.12,220.33,365,500 g,Y,2025-12-25T18:00:00Z
+PRD000595,Daily Juice 595,Beverages,Juice,Prakriti,221.79,275.25,180,250 g,Y,2025-12-25T19:00:00Z
+PRD000596,Fresh Biscuits 596,Snacks,Biscuits,Aarohan,79.25,123.95,30,500 g,Y,2025-12-25T20:00:00Z
+PRD000597,Daily Skin Care 597,Personal Care,Skin Care,Navya,310.73,422.37,365,250 g,Y,2025-12-25T21:00:00Z
+PRD000598,Natural Detergent 598,Home Care,Detergent,Prakriti,257.71,401.19,30,1 L,Y,2025-12-25T22:00:00Z
+PRD000599,Gold Grains 599,Staples,Grains,Sampoorna,103.38,123.55,540,1 L,Y,2025-12-25T23:00:00Z
+PRD000600,Classic Juice 600,Beverages,Juice,Navya,110.34,135.19,90,100 g,Y,2025-12-01T00:00:00Z
+PRD000601,Gold Biscuits 601,Snacks,Biscuits,Sampoorna,165.65,237.54,365,500 g,Y,2025-12-01T01:00:00Z
+PRD000602,Natural Skin Care 602,Personal Care,Skin Care,Sampoorna,426.83,543.45,540,1 kg,Y,2025-12-01T02:00:00Z
+PRD000603,Classic Detergent 603,Home Care,Detergent,Utsav,166.13,215.53,540,100 g,Y,2025-12-01T03:00:00Z
+PRD000604,Daily Grains 604,Staples,Grains,Prakriti,394.05,486.47,365,500 g,Y,2025-12-01T04:00:00Z
+PRD000605,Classic Juice 605,Beverages,Juice,Sampoorna,338.98,408.62,540,100 g,Y,2025-12-01T05:00:00Z
+PRD000606,Classic Biscuits 606,Snacks,Biscuits,Prakriti,428.66,613.17,180,1 kg,Y,2025-12-01T06:00:00Z
+PRD000607,Classic Skin Care 607,Personal Care,Skin Care,Utsav,442.65,522.87,30,1 L,Y,2025-12-01T07:00:00Z
+PRD000608,Classic Detergent 608,Home Care,Detergent,Utsav,182.21,260.46,365,500 g,Y,2025-12-01T08:00:00Z
+PRD000609,Fresh Grains 609,Staples,Grains,Utsav,369.55,463.6,180,1 L,Y,2025-12-01T09:00:00Z
+PRD000610,Classic Juice 610,Beverages,Juice,Utsav,153.59,244.43,30,100 g,Y,2025-12-01T10:00:00Z
+PRD000611,Classic Biscuits 611,Snacks,Biscuits,Aarohan,254.56,329.96,180,1 L,Y,2025-12-01T11:00:00Z
+PRD000612,Fresh Skin Care 612,Personal Care,Skin Care,Aarohan,122.28,147.89,90,250 g,Y,2025-12-01T12:00:00Z
+PRD000613,Daily Detergent 613,Home Care,Detergent,Aarohan,205.44,289.56,540,250 g,Y,2025-12-01T13:00:00Z
+PRD000614,Fresh Grains 614,Staples,Grains,Prakriti,287.75,348.84,90,250 g,Y,2025-12-01T14:00:00Z
+PRD000615,Gold Juice 615,Beverages,Juice,Aarohan,427.07,543.01,540,1 kg,Y,2025-12-01T15:00:00Z
+PRD000616,Gold Biscuits 616,Snacks,Biscuits,Utsav,251.62,373.65,90,100 g,Y,2025-12-01T16:00:00Z
+PRD000617,Classic Skin Care 617,Personal Care,Skin Care,Sampoorna,434.64,631.34,90,1 kg,Y,2025-12-01T17:00:00Z
+PRD000618,Gold Detergent 618,Home Care,Detergent,Aarohan,142.19,188.5,30,500 g,Y,2025-12-01T18:00:00Z
+PRD000619,Fresh Grains 619,Staples,Grains,Prakriti,81.22,121.03,540,1 kg,Y,2025-12-01T19:00:00Z
+PRD000620,Gold Juice 620,Beverages,Juice,Sampoorna,391.65,572.51,30,100 g,Y,2025-12-01T20:00:00Z
+PRD000621,Daily Biscuits 621,Snacks,Biscuits,Navya,282.87,359.52,30,1 L,Y,2025-12-01T21:00:00Z
+PRD000622,Natural Skin Care 622,Personal Care,Skin Care,Navya,251.48,348.01,180,1 kg,Y,2025-12-01T22:00:00Z
+PRD000623,Gold Detergent 623,Home Care,Detergent,Aarohan,311.32,460.99,540,1 L,Y,2025-12-01T23:00:00Z
+PRD000624,Classic Grains 624,Staples,Grains,Prakriti,387.65,618.94,365,250 g,Y,2025-12-02T00:00:00Z
+PRD000625,Classic Juice 625,Beverages,Juice,Utsav,62.34,92.88,30,250 g,Y,2025-12-02T01:00:00Z
+PRD000626,Daily Biscuits 626,Snacks,Biscuits,Utsav,45.73,53.61,30,500 g,Y,2025-12-02T02:00:00Z
+PRD000627,Daily Skin Care 627,Personal Care,Skin Care,Utsav,90.38,128.78,365,100 g,N,2025-12-02T03:00:00Z
+PRD000628,Daily Detergent 628,Home Care,Detergent,Prakriti,407.45,590.93,540,250 g,Y,2025-12-02T04:00:00Z
+PRD000629,Fresh Grains 629,Staples,Grains,Sampoorna,230.93,300.4,30,100 g,Y,2025-12-02T05:00:00Z
+PRD000630,Daily Juice 630,Beverages,Juice,Prakriti,455.68,560.45,180,1 kg,Y,2025-12-02T06:00:00Z
+PRD000631,Daily Biscuits 631,Snacks,Biscuits,Prakriti,185.51,258.31,30,1 kg,Y,2025-12-02T07:00:00Z
+PRD000632,Daily Skin Care 632,Personal Care,Skin Care,Navya,31.84,40.69,180,1 kg,Y,2025-12-02T08:00:00Z
+PRD000633,Gold Detergent 633,Home Care,Detergent,Aarohan,146.17,195.29,90,100 g,Y,2025-12-02T09:00:00Z
+PRD000634,Natural Grains 634,Staples,Grains,Navya,245.24,379.82,540,1 L,Y,2025-12-02T10:00:00Z
+PRD000635,Classic Juice 635,Beverages,Juice,Aarohan,44.75,64.36,365,1 kg,Y,2025-12-02T11:00:00Z
+PRD000636,Natural Biscuits 636,Snacks,Biscuits,Prakriti,175.96,210.96,180,1 kg,Y,2025-12-02T12:00:00Z
+PRD000637,Classic Skin Care 637,Personal Care,Skin Care,Prakriti,346.39,493.41,90,250 g,Y,2025-12-02T13:00:00Z
+PRD000638,Gold Detergent 638,Home Care,Detergent,Utsav,445.74,674.06,540,100 g,Y,2025-12-02T14:00:00Z
+PRD000639,Fresh Grains 639,Staples,Grains,Aarohan,29.94,39.37,365,500 g,Y,2025-12-02T15:00:00Z
+PRD000640,Classic Juice 640,Beverages,Juice,Prakriti,167.82,217.18,540,250 g,Y,2025-12-02T16:00:00Z
+PRD000641,Daily Biscuits 641,Snacks,Biscuits,Navya,255.09,402.61,180,1 L,Y,2025-12-02T17:00:00Z
+PRD000642,Natural Skin Care 642,Personal Care,Skin Care,Sampoorna,339.75,447.15,365,250 g,Y,2025-12-02T18:00:00Z
+PRD000643,Fresh Detergent 643,Home Care,Detergent,Navya,337.87,481.36,180,250 g,Y,2025-12-02T19:00:00Z
+PRD000644,Classic Grains 644,Staples,Grains,Aarohan,444.94,533.06,30,1 kg,Y,2025-12-02T20:00:00Z
+PRD000645,Fresh Juice 645,Beverages,Juice,Aarohan,358.66,544.32,540,100 g,Y,2025-12-02T21:00:00Z
+PRD000646,Daily Biscuits 646,Snacks,Biscuits,Navya,383.86,505.52,540,1 kg,Y,2025-12-02T22:00:00Z
+PRD000647,Classic Skin Care 647,Personal Care,Skin Care,Aarohan,58.99,89.56,180,100 g,Y,2025-12-02T23:00:00Z
+PRD000648,Natural Detergent 648,Home Care,Detergent,Navya,421.19,643.02,180,250 g,Y,2025-12-03T00:00:00Z
+PRD000649,Fresh Grains 649,Staples,Grains,Sampoorna,188.5,277.07,540,1 kg,Y,2025-12-03T01:00:00Z
+PRD000650,Gold Juice 650,Beverages,Juice,Aarohan,440.38,593.64,30,1 L,Y,2025-12-03T02:00:00Z
+PRD000651,Daily Biscuits 651,Snacks,Biscuits,Aarohan,62.66,79.92,90,1 kg,Y,2025-12-03T03:00:00Z
+PRD000652,Daily Skin Care 652,Personal Care,Skin Care,Navya,460.14,724.95,180,1 L,Y,2025-12-03T04:00:00Z
+PRD000653,Gold Detergent 653,Home Care,Detergent,Prakriti,376.24,460.9,180,1 kg,Y,2025-12-03T05:00:00Z
+PRD000654,Daily Grains 654,Staples,Grains,Prakriti,53.2,83.7,90,500 g,Y,2025-12-03T06:00:00Z
+PRD000655,Gold Juice 655,Beverages,Juice,Utsav,96.07,152.54,365,1 L,Y,2025-12-03T07:00:00Z
+PRD000656,Gold Biscuits 656,Snacks,Biscuits,Sampoorna,413.37,495.85,180,500 g,Y,2025-12-03T08:00:00Z
+PRD000657,Fresh Skin Care 657,Personal Care,Skin Care,Prakriti,235.84,301.56,540,100 g,Y,2025-12-03T09:00:00Z
+PRD000658,Fresh Detergent 658,Home Care,Detergent,Utsav,49.17,64.08,365,1 L,Y,2025-12-03T10:00:00Z
+PRD000659,Fresh Grains 659,Staples,Grains,Prakriti,84.36,127.92,540,250 g,Y,2025-12-03T11:00:00Z
+PRD000660,Daily Juice 660,Beverages,Juice,Utsav,216.1,288.09,540,250 g,Y,2025-12-03T12:00:00Z
+PRD000661,Gold Biscuits 661,Snacks,Biscuits,Prakriti,84.92,98.24,30,1 kg,Y,2025-12-03T13:00:00Z
+PRD000662,Gold Skin Care 662,Personal Care,Skin Care,Sampoorna,286.08,374.35,540,250 g,Y,2025-12-03T14:00:00Z
+PRD000663,Gold Detergent 663,Home Care,Detergent,Aarohan,124.08,157.28,90,250 g,Y,2025-12-03T15:00:00Z
+PRD000664,Classic Grains 664,Staples,Grains,Navya,111.61,153.52,90,100 g,Y,2025-12-03T16:00:00Z
+PRD000665,Natural Juice 665,Beverages,Juice,Utsav,349.5,476.59,90,250 g,Y,2025-12-03T17:00:00Z
+PRD000666,Fresh Biscuits 666,Snacks,Biscuits,Prakriti,379.91,471.95,540,100 g,Y,2025-12-03T18:00:00Z
+PRD000667,Gold Skin Care 667,Personal Care,Skin Care,Aarohan,145.72,174.59,540,100 g,Y,2025-12-03T19:00:00Z
+PRD000668,Classic Detergent 668,Home Care,Detergent,Prakriti,459.92,555.65,180,1 L,Y,2025-12-03T20:00:00Z
+PRD000669,Fresh Grains 669,Staples,Grains,Navya,186.98,258.14,180,1 L,Y,2025-12-03T21:00:00Z
+PRD000670,Daily Juice 670,Beverages,Juice,Sampoorna,389.85,491.61,180,250 g,Y,2025-12-03T22:00:00Z
+PRD000671,Gold Biscuits 671,Snacks,Biscuits,Navya,397.15,470.76,90,250 g,Y,2025-12-03T23:00:00Z
+PRD000672,Fresh Skin Care 672,Personal Care,Skin Care,Sampoorna,458.16,652.34,90,1 kg,Y,2025-12-04T00:00:00Z
+PRD000673,Daily Detergent 673,Home Care,Detergent,Prakriti,195.63,251.59,365,500 g,Y,2025-12-04T01:00:00Z
+PRD000674,Gold Grains 674,Staples,Grains,Navya,361.74,551.57,365,250 g,Y,2025-12-04T02:00:00Z
+PRD000675,Daily Juice 675,Beverages,Juice,Sampoorna,314.91,380.39,540,1 L,Y,2025-12-04T03:00:00Z
+PRD000676,Natural Biscuits 676,Snacks,Biscuits,Utsav,386.89,461.07,365,1 L,Y,2025-12-04T04:00:00Z
+PRD000677,Classic Skin Care 677,Personal Care,Skin Care,Sampoorna,39.5,59.63,30,1 L,Y,2025-12-04T05:00:00Z
+PRD000678,Natural Detergent 678,Home Care,Detergent,Sampoorna,243.11,366.4,30,500 g,Y,2025-12-04T06:00:00Z
+PRD000679,Daily Grains 679,Staples,Grains,Sampoorna,336.47,475.85,180,1 L,Y,2025-12-04T07:00:00Z
+PRD000680,Daily Juice 680,Beverages,Juice,Utsav,249.2,337.5,90,100 g,Y,2025-12-04T08:00:00Z
+PRD000681,Natural Biscuits 681,Snacks,Biscuits,Navya,210.58,329.23,365,250 g,Y,2025-12-04T09:00:00Z
+PRD000682,Classic Skin Care 682,Personal Care,Skin Care,Sampoorna,318.87,502.75,365,250 g,Y,2025-12-04T10:00:00Z
+PRD000683,Classic Detergent 683,Home Care,Detergent,Prakriti,90.45,104.02,90,250 g,Y,2025-12-04T11:00:00Z
+PRD000684,Natural Grains 684,Staples,Grains,Prakriti,256.99,308.33,90,1 kg,N,2025-12-04T12:00:00Z
+PRD000685,Classic Juice 685,Beverages,Juice,Aarohan,230.73,270.56,30,250 g,Y,2025-12-04T13:00:00Z
+PRD000686,Fresh Biscuits 686,Snacks,Biscuits,Sampoorna,381.83,568.08,365,100 g,Y,2025-12-04T14:00:00Z
+PRD000687,Classic Skin Care 687,Personal Care,Skin Care,Aarohan,336.98,433.74,540,1 L,Y,2025-12-04T15:00:00Z
+PRD000688,Gold Detergent 688,Home Care,Detergent,Navya,115.54,174.85,30,1 kg,Y,2025-12-04T16:00:00Z
+PRD000689,Classic Grains 689,Staples,Grains,Navya,248.73,365.21,30,500 g,Y,2025-12-04T17:00:00Z
+PRD000690,Daily Juice 690,Beverages,Juice,Prakriti,360.78,564.71,365,500 g,Y,2025-12-04T18:00:00Z
+PRD000691,Gold Biscuits 691,Snacks,Biscuits,Utsav,188.11,290.08,540,500 g,Y,2025-12-04T19:00:00Z
+PRD000692,Gold Skin Care 692,Personal Care,Skin Care,Utsav,426.6,637.59,365,1 kg,Y,2025-12-04T20:00:00Z
+PRD000693,Natural Detergent 693,Home Care,Detergent,Navya,251.78,311.62,90,100 g,Y,2025-12-04T21:00:00Z
+PRD000694,Daily Grains 694,Staples,Grains,Sampoorna,456.98,635.34,90,100 g,Y,2025-12-04T22:00:00Z
+PRD000695,Gold Juice 695,Beverages,Juice,Sampoorna,339.44,457.79,365,100 g,Y,2025-12-04T23:00:00Z
+PRD000696,Natural Biscuits 696,Snacks,Biscuits,Aarohan,443.01,635.64,180,500 g,Y,2025-12-05T00:00:00Z
+PRD000697,Fresh Skin Care 697,Personal Care,Skin Care,Navya,147.51,206.16,180,1 kg,Y,2025-12-05T01:00:00Z
+PRD000698,Classic Detergent 698,Home Care,Detergent,Prakriti,453.87,645.37,540,1 L,Y,2025-12-05T02:00:00Z
+PRD000699,Natural Grains 699,Staples,Grains,Navya,244.6,290.95,180,1 L,Y,2025-12-05T03:00:00Z
+PRD000700,Gold Juice 700,Beverages,Juice,Navya,184.12,264.47,30,1 kg,Y,2025-12-05T04:00:00Z
+PRD000701,Gold Biscuits 701,Snacks,Biscuits,Aarohan,383.44,512.64,180,1 L,Y,2025-12-05T05:00:00Z
+PRD000702,Daily Skin Care 702,Personal Care,Skin Care,Utsav,196.29,301.03,90,250 g,Y,2025-12-05T06:00:00Z
+PRD000703,Fresh Detergent 703,Home Care,Detergent,Sampoorna,113.03,146.95,30,100 g,Y,2025-12-05T07:00:00Z
+PRD000704,Natural Grains 704,Staples,Grains,Aarohan,343.35,438.92,30,1 L,Y,2025-12-05T08:00:00Z
+PRD000705,Classic Juice 705,Beverages,Juice,Prakriti,406.24,607.67,540,100 g,Y,2025-12-05T09:00:00Z
+PRD000706,Natural Biscuits 706,Snacks,Biscuits,Sampoorna,238.63,352.55,90,1 L,Y,2025-12-05T10:00:00Z
+PRD000707,Natural Skin Care 707,Personal Care,Skin Care,Navya,442.78,629.13,90,500 g,Y,2025-12-05T11:00:00Z
+PRD000708,Gold Detergent 708,Home Care,Detergent,Utsav,414.57,547.97,365,500 g,Y,2025-12-05T12:00:00Z
+PRD000709,Classic Grains 709,Staples,Grains,Aarohan,105.59,151.05,540,100 g,Y,2025-12-05T13:00:00Z
+PRD000710,Fresh Juice 710,Beverages,Juice,Utsav,87.79,135.29,90,1 L,Y,2025-12-05T14:00:00Z
+PRD000711,Fresh Biscuits 711,Snacks,Biscuits,Utsav,390.63,554.49,30,250 g,Y,2025-12-05T15:00:00Z
+PRD000712,Classic Skin Care 712,Personal Care,Skin Care,Aarohan,388.71,595.98,180,500 g,Y,2025-12-05T16:00:00Z
+PRD000713,Classic Detergent 713,Home Care,Detergent,Utsav,96.38,143.03,90,250 g,Y,2025-12-05T17:00:00Z
+PRD000714,Daily Grains 714,Staples,Grains,Utsav,78.28,92.88,180,250 g,Y,2025-12-05T18:00:00Z
+PRD000715,Gold Juice 715,Beverages,Juice,Sampoorna,233.44,372.8,30,500 g,Y,2025-12-05T19:00:00Z
+PRD000716,Natural Biscuits 716,Snacks,Biscuits,Utsav,38.55,59.65,180,100 g,Y,2025-12-05T20:00:00Z
+PRD000717,Classic Skin Care 717,Personal Care,Skin Care,Aarohan,184.04,287.44,180,250 g,Y,2025-12-05T21:00:00Z
+PRD000718,Classic Detergent 718,Home Care,Detergent,Navya,306.6,383.58,30,1 L,Y,2025-12-05T22:00:00Z
+PRD000719,Gold Grains 719,Staples,Grains,Navya,425.03,490.28,30,1 kg,Y,2025-12-05T23:00:00Z
+PRD000720,Gold Juice 720,Beverages,Juice,Prakriti,408.73,596.67,365,100 g,Y,2025-12-06T00:00:00Z
+PRD000721,Daily Biscuits 721,Snacks,Biscuits,Aarohan,389.38,457.74,540,500 g,Y,2025-12-06T01:00:00Z
+PRD000722,Natural Skin Care 722,Personal Care,Skin Care,Utsav,261.87,402.75,90,500 g,Y,2025-12-06T02:00:00Z
+PRD000723,Fresh Detergent 723,Home Care,Detergent,Utsav,328.42,397.68,540,1 kg,Y,2025-12-06T03:00:00Z
+PRD000724,Classic Grains 724,Staples,Grains,Prakriti,62.57,79.8,365,100 g,Y,2025-12-06T04:00:00Z
+PRD000725,Fresh Juice 725,Beverages,Juice,Utsav,248.41,289.25,540,250 g,Y,2025-12-06T05:00:00Z
+PRD000726,Natural Biscuits 726,Snacks,Biscuits,Utsav,408.54,486.91,365,100 g,Y,2025-12-06T06:00:00Z
+PRD000727,Natural Skin Care 727,Personal Care,Skin Care,Navya,99.33,118.07,30,250 g,Y,2025-12-06T07:00:00Z
+PRD000728,Daily Detergent 728,Home Care,Detergent,Sampoorna,418.32,483.5,90,100 g,Y,2025-12-06T08:00:00Z
+PRD000729,Fresh Grains 729,Staples,Grains,Sampoorna,33.45,39.73,180,500 g,Y,2025-12-06T09:00:00Z
+PRD000730,Daily Juice 730,Beverages,Juice,Utsav,39.62,46.77,90,250 g,Y,2025-12-06T10:00:00Z
+PRD000731,Daily Biscuits 731,Snacks,Biscuits,Utsav,212.09,311.9,540,500 g,Y,2025-12-06T11:00:00Z
+PRD000732,Natural Skin Care 732,Personal Care,Skin Care,Sampoorna,265.85,348.9,540,500 g,Y,2025-12-06T12:00:00Z
+PRD000733,Daily Detergent 733,Home Care,Detergent,Sampoorna,279.12,399.01,30,500 g,Y,2025-12-06T13:00:00Z
+PRD000734,Fresh Grains 734,Staples,Grains,Aarohan,240.49,295.83,180,1 L,Y,2025-12-06T14:00:00Z
+PRD000735,Daily Juice 735,Beverages,Juice,Sampoorna,369.95,582.15,540,100 g,Y,2025-12-06T15:00:00Z
+PRD000736,Natural Biscuits 736,Snacks,Biscuits,Sampoorna,237.4,279.3,540,1 L,Y,2025-12-06T16:00:00Z
+PRD000737,Daily Skin Care 737,Personal Care,Skin Care,Sampoorna,456.07,671.06,90,1 kg,Y,2025-12-06T17:00:00Z
+PRD000738,Daily Detergent 738,Home Care,Detergent,Utsav,57.12,66.06,540,100 g,Y,2025-12-06T18:00:00Z
+PRD000739,Fresh Grains 739,Staples,Grains,Prakriti,202.8,306.62,540,1 kg,Y,2025-12-06T19:00:00Z
+PRD000740,Gold Juice 740,Beverages,Juice,Utsav,239.22,282.39,365,1 kg,Y,2025-12-06T20:00:00Z
+PRD000741,Gold Biscuits 741,Snacks,Biscuits,Prakriti,29.42,41.91,30,100 g,N,2025-12-06T21:00:00Z
+PRD000742,Gold Skin Care 742,Personal Care,Skin Care,Sampoorna,311.51,446.96,540,1 kg,Y,2025-12-06T22:00:00Z
+PRD000743,Natural Detergent 743,Home Care,Detergent,Aarohan,78.45,110.88,365,250 g,Y,2025-12-06T23:00:00Z
+PRD000744,Gold Grains 744,Staples,Grains,Utsav,193.05,235.58,30,250 g,Y,2025-12-07T00:00:00Z
+PRD000745,Gold Juice 745,Beverages,Juice,Utsav,380.42,477.44,540,1 kg,Y,2025-12-07T01:00:00Z
+PRD000746,Natural Biscuits 746,Snacks,Biscuits,Aarohan,405.81,520.9,365,1 kg,Y,2025-12-07T02:00:00Z
+PRD000747,Daily Skin Care 747,Personal Care,Skin Care,Aarohan,163.29,229.71,540,1 L,Y,2025-12-07T03:00:00Z
+PRD000748,Gold Detergent 748,Home Care,Detergent,Utsav,160.96,237.16,180,1 L,Y,2025-12-07T04:00:00Z
+PRD000749,Gold Grains 749,Staples,Grains,Prakriti,221.48,302.63,180,250 g,Y,2025-12-07T05:00:00Z
+PRD000750,Natural Juice 750,Beverages,Juice,Prakriti,274,423.63,30,1 L,Y,2025-12-07T06:00:00Z
+PRD000751,Gold Biscuits 751,Snacks,Biscuits,Aarohan,346.27,467.41,365,1 kg,Y,2025-12-07T07:00:00Z
+PRD000752,Gold Skin Care 752,Personal Care,Skin Care,Prakriti,202.71,261.93,365,1 L,Y,2025-12-07T08:00:00Z
+PRD000753,Gold Detergent 753,Home Care,Detergent,Navya,266.59,382.83,90,100 g,Y,2025-12-07T09:00:00Z
+PRD000754,Daily Grains 754,Staples,Grains,Sampoorna,296.4,353.82,180,100 g,Y,2025-12-07T10:00:00Z
+PRD000755,Fresh Juice 755,Beverages,Juice,Navya,267.14,352.58,90,500 g,Y,2025-12-07T11:00:00Z
+PRD000756,Daily Biscuits 756,Snacks,Biscuits,Utsav,207.16,276.38,540,1 kg,Y,2025-12-07T12:00:00Z
+PRD000757,Classic Skin Care 757,Personal Care,Skin Care,Utsav,417.05,643.68,365,1 L,Y,2025-12-07T13:00:00Z
+PRD000758,Classic Detergent 758,Home Care,Detergent,Utsav,158.25,223.63,90,100 g,Y,2025-12-07T14:00:00Z
+PRD000759,Classic Grains 759,Staples,Grains,Prakriti,139.58,211.09,90,500 g,Y,2025-12-07T15:00:00Z
+PRD000760,Gold Juice 760,Beverages,Juice,Utsav,316.26,489.68,180,250 g,Y,2025-12-07T16:00:00Z
+PRD000761,Daily Biscuits 761,Snacks,Biscuits,Navya,436.09,662.93,540,1 L,Y,2025-12-07T17:00:00Z
+PRD000762,Gold Skin Care 762,Personal Care,Skin Care,Prakriti,341.98,516.92,365,1 L,Y,2025-12-07T18:00:00Z
+PRD000763,Classic Detergent 763,Home Care,Detergent,Navya,386.84,500.42,180,1 L,Y,2025-12-07T19:00:00Z
+PRD000764,Gold Grains 764,Staples,Grains,Utsav,20.35,29.8,90,1 L,Y,2025-12-07T20:00:00Z
+PRD000765,Classic Juice 765,Beverages,Juice,Utsav,32.13,42.44,90,250 g,Y,2025-12-07T21:00:00Z
+PRD000766,Gold Biscuits 766,Snacks,Biscuits,Aarohan,382.35,597.59,30,100 g,Y,2025-12-07T22:00:00Z
+PRD000767,Classic Skin Care 767,Personal Care,Skin Care,Navya,379.97,538.06,365,250 g,Y,2025-12-07T23:00:00Z
+PRD000768,Gold Detergent 768,Home Care,Detergent,Navya,192.21,270.75,540,500 g,Y,2025-12-08T00:00:00Z
+PRD000769,Gold Grains 769,Staples,Grains,Utsav,70.95,84.47,30,250 g,Y,2025-12-08T01:00:00Z
+PRD000770,Natural Juice 770,Beverages,Juice,Prakriti,320.34,404.15,30,1 kg,Y,2025-12-08T02:00:00Z
+PRD000771,Daily Biscuits 771,Snacks,Biscuits,Utsav,40.52,50.06,180,500 g,Y,2025-12-08T03:00:00Z
+PRD000772,Gold Skin Care 772,Personal Care,Skin Care,Prakriti,347.24,532.19,180,500 g,Y,2025-12-08T04:00:00Z
+PRD000773,Classic Detergent 773,Home Care,Detergent,Navya,430.06,561.01,365,500 g,Y,2025-12-08T05:00:00Z
+PRD000774,Classic Grains 774,Staples,Grains,Sampoorna,284.15,448.3,365,250 g,Y,2025-12-08T06:00:00Z
+PRD000775,Fresh Juice 775,Beverages,Juice,Aarohan,383.69,590.94,90,250 g,Y,2025-12-08T07:00:00Z
+PRD000776,Fresh Biscuits 776,Snacks,Biscuits,Utsav,395.93,528.12,540,250 g,Y,2025-12-08T08:00:00Z
+PRD000777,Natural Skin Care 777,Personal Care,Skin Care,Utsav,43.75,51.41,90,100 g,Y,2025-12-08T09:00:00Z
+PRD000778,Daily Detergent 778,Home Care,Detergent,Aarohan,418.54,621.31,180,100 g,Y,2025-12-08T10:00:00Z
+PRD000779,Classic Grains 779,Staples,Grains,Utsav,372.26,438.91,30,1 kg,Y,2025-12-08T11:00:00Z
+PRD000780,Daily Juice 780,Beverages,Juice,Sampoorna,302.14,373.68,90,500 g,Y,2025-12-08T12:00:00Z
+PRD000781,Classic Biscuits 781,Snacks,Biscuits,Utsav,144.2,220.43,180,100 g,Y,2025-12-08T13:00:00Z
+PRD000782,Classic Skin Care 782,Personal Care,Skin Care,Utsav,21.66,32.75,365,1 kg,Y,2025-12-08T14:00:00Z
+PRD000783,Fresh Detergent 783,Home Care,Detergent,Sampoorna,112.34,150.48,365,1 kg,Y,2025-12-08T15:00:00Z
+PRD000784,Daily Grains 784,Staples,Grains,Navya,199.76,305.08,90,250 g,Y,2025-12-08T16:00:00Z
+PRD000785,Natural Juice 785,Beverages,Juice,Navya,283.09,369.45,180,1 kg,Y,2025-12-08T17:00:00Z
+PRD000786,Classic Biscuits 786,Snacks,Biscuits,Sampoorna,124.52,164.96,180,100 g,Y,2025-12-08T18:00:00Z
+PRD000787,Natural Skin Care 787,Personal Care,Skin Care,Sampoorna,380.35,545.37,30,100 g,Y,2025-12-08T19:00:00Z
+PRD000788,Fresh Detergent 788,Home Care,Detergent,Utsav,370.09,579.15,30,500 g,Y,2025-12-08T20:00:00Z
+PRD000789,Fresh Grains 789,Staples,Grains,Navya,126.98,186.82,90,100 g,Y,2025-12-08T21:00:00Z
+PRD000790,Fresh Juice 790,Beverages,Juice,Aarohan,182.81,254.43,30,250 g,Y,2025-12-08T22:00:00Z
+PRD000791,Natural Biscuits 791,Snacks,Biscuits,Utsav,127.15,152.83,540,1 kg,Y,2025-12-08T23:00:00Z
+PRD000792,Gold Skin Care 792,Personal Care,Skin Care,Prakriti,303.81,417.62,365,1 L,Y,2025-12-09T00:00:00Z
+PRD000793,Fresh Detergent 793,Home Care,Detergent,Navya,245.08,315.42,540,1 L,Y,2025-12-09T01:00:00Z
+PRD000794,Natural Grains 794,Staples,Grains,Sampoorna,223.2,276.36,540,1 kg,Y,2025-12-09T02:00:00Z
+PRD000795,Classic Juice 795,Beverages,Juice,Prakriti,355.69,487.04,30,1 L,Y,2025-12-09T03:00:00Z
+PRD000796,Gold Biscuits 796,Snacks,Biscuits,Navya,323.24,462.7,30,1 kg,Y,2025-12-09T04:00:00Z
+PRD000797,Daily Skin Care 797,Personal Care,Skin Care,Utsav,234.14,317.42,180,500 g,Y,2025-12-09T05:00:00Z
+PRD000798,Classic Detergent 798,Home Care,Detergent,Aarohan,326.82,378.72,365,100 g,N,2025-12-09T06:00:00Z
+PRD000799,Gold Grains 799,Staples,Grains,Prakriti,139.25,163.39,90,1 L,Y,2025-12-09T07:00:00Z
+PRD000701,Gold Biscuits 701,Snacks,Biscuits,Aarohan,383.44,512.64,180,1 L,Y,2025-12-05T05:00:00Z

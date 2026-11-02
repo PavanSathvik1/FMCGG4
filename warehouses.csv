@@ -1,0 +1,61 @@
+warehouse_id,warehouse_name,city,state,region,warehouse_type,capacity_units,temperature_control_flag,active_flag,source_updated_ts
+WH001,Hyderabad Distribution Centre 1,Hyderabad,Telangana,Central,Cross-dock,318995,N,Y,2025-12-01T02:00:00Z
+WH002,Kolkata Distribution Centre 2,Kolkata,West Bengal,North,Cross-dock,261518,Y,Y,2025-12-01T04:00:00Z
+WH003,Lucknow Distribution Centre 3,Lucknow,Uttar Pradesh,Central,Central,87987,N,Y,2025-12-01T06:00:00Z
+WH004,Chennai Distribution Centre 4,Chennai,Tamil Nadu,Central,Cross-dock,373029,Y,Y,2025-12-01T08:00:00Z
+WH005,New Delhi Distribution Centre 5,New Delhi,Delhi NCR,East,Regional,481719,N,Y,2025-12-01T10:00:00Z
+WH006,Kochi Distribution Centre 6,Kochi,Kerala,South,Regional,267340,N,Y,2025-12-01T12:00:00Z
+WH007,Bengaluru Distribution Centre 7,Bengaluru,Karnataka,Central,Regional,432436,N,Y,2025-12-01T14:00:00Z
+WH008,Ahmedabad Distribution Centre 8,Ahmedabad,Gujarat,Central,Regional,281471,Y,Y,2025-12-01T16:00:00Z
+WH009,Jaipur Distribution Centre 9,Jaipur,Rajasthan,West,Cross-dock,162560,N,Y,2025-12-01T18:00:00Z
+WH010,Mumbai Distribution Centre 10,Mumbai,Maharashtra,North,Central,270911,Y,Y,2025-12-01T20:00:00Z
+WH011,Hyderabad Distribution Centre 11,Hyderabad,Telangana,North,Cross-dock,327618,,Y,2025-12-01T22:00:00Z
+WH012,Kolkata Distribution Centre 12,Kolkata,West Bengal,South,Central,165027,Y,Y,2025-12-02T00:00:00Z
+WH013,Lucknow Distribution Centre 13,Lucknow,Uttar Pradesh,South,Central,532689,Y,Y,2025-12-02T02:00:00Z
+WH014,Chennai Distribution Centre 14,Chennai,Tamil Nadu,North,Central,102031,N,Y,2025-12-02T04:00:00Z
+WH015,New Delhi Distribution Centre 15,New Delhi,Delhi NCR,East,Regional,472869,N,Y,2025-12-02T06:00:00Z
+WH016,Kochi Distribution Centre 16,Kochi,Kerala,West,Central,261126,Y,Y,2025-12-02T08:00:00Z
+WH017,Bengaluru Distribution Centre 17,Bengaluru,Karnataka,North,Central,415961,Y,Y,2025-12-02T10:00:00Z
+WH018,Ahmedabad Distribution Centre 18,Ahmedabad,Gujarat,North,Central,427249,N,Y,2025-12-02T12:00:00Z
+WH019,Jaipur Distribution Centre 19,Jaipur,Rajasthan,Central,Regional,347101,N,Y,2025-12-02T14:00:00Z
+WH020,Mumbai Distribution Centre 20,Mumbai,Maharashtra,North,Regional,448065,N,Y,2025-12-02T16:00:00Z
+WH021,Hyderabad Distribution Centre 21,Hyderabad,Telangana,West,Central,364399,Y,Y,2025-12-02T18:00:00Z
+WH022,Kolkata Distribution Centre 22,Kolkata,West Bengal,Central,Cross-dock,175164,N,Y,2025-12-02T20:00:00Z
+WH023,Lucknow Distribution Centre 23,Lucknow,Uttar Pradesh,Central,Central,259354,Y,Y,2025-12-02T22:00:00Z
+WH024,Chennai Distribution Centre 24,Chennai,Tamil Nadu,South,Cross-dock,466366,N,Y,2025-12-03T00:00:00Z
+WH025,New Delhi Distribution Centre 25,New Delhi,Delhi NCR,South,Central,488990,N,Y,2025-12-03T02:00:00Z
+WH026,Kochi Distribution Centre 26,Kochi,Kerala,North,Regional,313981,Y,Y,2025-12-03T04:00:00Z
+WH027,Bengaluru Distribution Centre 27,Bengaluru,Karnataka,West,Central,320821,Y,Y,2025-12-03T06:00:00Z
+WH028,Ahmedabad Distribution Centre 28,Ahmedabad,Gujarat,East,Regional,417447,Y,Y,2025-12-03T08:00:00Z
+WH029,Jaipur Distribution Centre 29,Jaipur,Rajasthan,North,Cross-dock,502160,N,Y,2025-12-03T10:00:00Z
+WH030,Mumbai Distribution Centre 30,Mumbai,Maharashtra,West,Regional,520339,N,Y,2025-12-03T12:00:00Z
+WH031,Hyderabad Distribution Centre 31,Hyderabad,Telangana,South,Central,132330,Y,Y,2025-12-03T14:00:00Z
+WH032,Kolkata Distribution Centre 32,Kolkata,West Bengal,Central,Central,315922,Y,Y,2025-12-03T16:00:00Z
+WH033,Lucknow Distribution Centre 33,Lucknow,Uttar Pradesh,South,Regional,305525,N,Y,2025-12-03T18:00:00Z
+WH034,Chennai Distribution Centre 34,Chennai,Tamil Nadu,East,Regional,357472,Y,Y,2025-12-03T20:00:00Z
+WH035,New Delhi Distribution Centre 35,New Delhi,Delhi NCR,North,Cross-dock,131737,N,Y,2025-12-03T22:00:00Z
+WH036,Kochi Distribution Centre 36,Kochi,Kerala,South,Central,410250,Y,Y,2025-12-04T00:00:00Z
+WH037,Bengaluru Distribution Centre 37,Bengaluru,Karnataka,West,Regional,90130,Y,Y,2025-12-04T02:00:00Z
+WH038,Ahmedabad Distribution Centre 38,Ahmedabad,Gujarat,East,Cross-dock,271863,N,Y,2025-12-04T04:00:00Z
+WH039,Jaipur Distribution Centre 39,Jaipur,Rajasthan,East,Cross-dock,557892,Y,Y,2025-12-04T06:00:00Z
+WH040,Mumbai Distribution Centre 40,Mumbai,Maharashtra,East,Cross-dock,214116,Y,Y,2025-12-04T08:00:00Z
+WH041,Hyderabad Distribution Centre 41,Hyderabad,Telangana,East,Cross-dock,289963,N,Y,2025-12-04T10:00:00Z
+WH042,Kolkata Distribution Centre 42,Kolkata,West Bengal,East,Central,496146,N,Y,2025-12-04T12:00:00Z
+WH043,Lucknow Distribution Centre 43,Lucknow,Uttar Pradesh,West,Regional,508690,Y,Y,2025-12-04T14:00:00Z
+WH044,Chennai Distribution Centre 44,Chennai,Tamil Nadu,East,Regional,445430,N,Y,2025-12-04T16:00:00Z
+WH045,New Delhi Distribution Centre 45,New Delhi,Delhi NCR,Central,Central,104020,Y,Y,2025-12-04T18:00:00Z
+WH046,Kochi Distribution Centre 46,Kochi,Kerala,North,Cross-dock,157695,Y,Y,2025-12-04T20:00:00Z
+WH047,Bengaluru Distribution Centre 47,Bengaluru,Karnataka,East,Cross-dock,541396,N,Y,2025-12-04T22:00:00Z
+WH048,Ahmedabad Distribution Centre 48,Ahmedabad,Gujarat,East,Regional,196426,N,Y,2025-12-05T00:00:00Z
+WH049,Jaipur Distribution Centre 49,Jaipur,Rajasthan,North,Central,524729,N,Y,2025-12-05T02:00:00Z
+WH050,Mumbai Distribution Centre 50,Mumbai,Maharashtra,North,Regional,85506,Y,Y,2025-12-05T04:00:00Z
+WH051,Hyderabad Distribution Centre 51,Hyderabad,Telangana,Central,Central,430517,N,Y,2025-12-05T06:00:00Z
+WH052,Kolkata Distribution Centre 52,Kolkata,West Bengal,South,Regional,499667,N,Y,2025-12-05T08:00:00Z
+WH053,Lucknow Distribution Centre 53,Lucknow,Uttar Pradesh,North,Cross-dock,387268,Y,Y,2025-12-05T10:00:00Z
+WH054,Chennai Distribution Centre 54,Chennai,Tamil Nadu,Central,Cross-dock,255623,N,Y,2025-12-05T12:00:00Z
+WH055,New Delhi Distribution Centre 55,New Delhi,Delhi NCR,Central,Regional,269411,N,Y,2025-12-05T14:00:00Z
+WH056,Kochi Distribution Centre 56,Kochi,Kerala,Central,Regional,496855,Y,Y,2025-12-05T16:00:00Z
+WH057,Bengaluru Distribution Centre 57,Bengaluru,Karnataka,South,Regional,314563,Y,Y,2025-12-05T18:00:00Z
+WH058,Ahmedabad Distribution Centre 58,Ahmedabad,Gujarat,West,Regional,231449,N,Y,2025-12-05T20:00:00Z
+WH059,Jaipur Distribution Centre 59,Jaipur,Rajasthan,Central,Regional,247501,Y,Y,2025-12-05T22:00:00Z
+WH060,Mumbai Distribution Centre 60,Mumbai,Maharashtra,North,Central,110833,N,Y,2025-12-06T00:00:00Z
