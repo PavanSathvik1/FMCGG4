@@ -63,3 +63,4 @@ o_ts date/time (29,9) TO_DATE(SUBSTR(v_ts_s,1,10) || ' ' || SUBSTR(v_ts_s,12,8),
 
 
 
+SUBSTR(LTRIM(RTRIM(source_updated_ts)),1,10) || ' ' || SUBSTR(LTRIM(RTRIM(source_updated_ts)),12,8)
