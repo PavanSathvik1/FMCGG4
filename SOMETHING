@@ -1,0 +1,1 @@
+IIF(REG_MATCH(v_date_raw,'^\d{4}-\d{2}-\d{2}$') AND IS_DATE(v_date_raw,'YYYY-MM-DD'), v_date_raw, IIF(REG_MATCH(v_date_raw,'^\d{2}/\d{2}/\d{4}$') AND IS_DATE(v_date_raw,'DD/MM/YYYY'), TO_CHAR(TO_DATE(v_date_raw,'DD/MM/YYYY'),'YYYY-MM-DD'), NULL))
