@@ -1,4 +1,8 @@
+IIF(v_ts_ok=1, TO_DATE(v_ts_text,'YYYY-MM-DD HH24:MI:SS'), NULL)
+
+REPLACE(REPLACE(LTRIM(RTRIM(source_updated_ts)),'T',' '),'Z','')
+
 IIF(ISNULL(LTRIM(RTRIM(snapshot_id))) OR LTRIM(RTRIM(snapshot_id))='', 'SNAPSHOT_ID_NULL', IIF(ISNULL(LTRIM(RTRIM(location_id))) OR LTRIM(RTRIM(location_id))='', 'LOCATION_ID_NULL', IIF(ISNULL(LTRIM(RTRIM(product_id))) OR LTRIM(RTRIM(product_id))='', 'PRODUCT_ID_NULL', IIF(v_date_ok=0, 'INVALID_SNAPSHOT_DATE', IIF(ISNULL(on_hand_qty) OR ISNULL(reserved_qty) OR ISNULL(available_qty) OR ISNULL(reorder_point), 'QTY_NULL_OR_INVALID', IIF(reserved_qty > on_hand_qty, 'RESERVED_GT_ONHAND', IIF(available_qty < 0, 'NEGATIVE_AVAILABLE', IIF(available_qty != on_hand_qty - reserved_qty, 'AVAILABLE_MISMATCH', 'NONE'))))))))
 
-IIF(ISNULL(safety_stock), 'SAFETY_STOCK_NULL', IIF(ISNULL(location_type) OR NOT IN(UPPER(LTRIM(RTRIM(location_type))),'STORE','WAREHOUSE',1), 'LOCATION_TYPE_INVALID', IIF(ISNULL(stock_status) OR NOT IN(LTRIM(RTRIM(stock_status)),'Normal','Low','Excess','Out of Stock',1), 'STOCK_STATUS_INVALID', IIF(v_ts_ok=0, 'TIMESTAMP_INVALID', 'NONE'))))
 
+IIF(ISNULL(safety_stock), 'SAFETY_STOCK_NULL', IIF(ISNULL(location_type) OR NOT IN(UPPER(LTRIM(RTRIM(location_type))),'STORE','WAREHOUSE',1), 'LOCATION_TYPE_INVALID', IIF(ISNULL(stock_status) OR NOT IN(LTRIM(RTRIM(stock_status)),'Normal','Low','Excess','Out of Stock',1), 'STOCK_STATUS_INVALID', IIF(v_ts_ok=0, 'TIMESTAMP_INVALID', 'NONE'))))
